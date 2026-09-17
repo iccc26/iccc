@@ -5,21 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 
 <title>Iranian Civil Community CIC — جامعه مدنی ایرانیان</title>
-<meta name="title" content="Iranian Civil Community CIC — People, Connection, Brighter Together">
-<meta name="description" content="Iranian Civil Community CIC is a UK community interest company supporting Iranians who left Iran because of their civic and political activity. Request support, volunteer, or work with us.">
-<meta name="keywords" content="Iranian Civil Community, ICCC, CIC, Iranian diaspora, asylum support, refugee support UK, Iranian community London, volunteer, جامعه مدنی ایرانیان, پناهندگی, حمایت">
+<meta name="title" content="Iranian Civil Community CIC — Community, Solidarity, Support">
+<meta name="description" content="Iranian Civil Community CIC is an independent, community-focused organisation registered in the United Kingdom (Company No. 17308687), strengthening civic participation, connection and support across the Iranian community.">
+<meta name="keywords" content="Iranian Civil Community, ICCC, CIC, Community Interest Company, Iranian community UK, volunteer, partnerships, جامعه مدنی ایرانیان, مشارکت مدنی, حمایت, داوطلب">
 <meta name="author" content="Iranian Civil Community CIC">
 <meta name="robots" content="index, follow">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Iranian Civil Community CIC">
 <meta property="og:title" content="Iranian Civil Community CIC">
-<meta property="og:description" content="Support, solidarity and practical help for Iranians rebuilding their lives abroad.">
+<meta property="og:description" content="Community, solidarity and support across the Iranian community. UK Registered Community Interest Company No. 17308687.">
 <meta property="og:locale" content="en_GB">
 <meta property="og:locale:alternate" content="fa_IR">
 <meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:title" content="Iranian Civil Community CIC">
-<meta property="twitter:description" content="Support, solidarity and practical help for Iranians rebuilding their lives abroad.">
+<meta property="twitter:description" content="Community, solidarity and support across the Iranian community. UK Registered Community Interest Company No. 17308687.">
 
 <link rel="icon" type="image/png" href="assets/logoICCC.png">
 <link rel="apple-touch-icon" href="assets/logoICCC.png">
@@ -69,7 +69,6 @@ a:hover{color:var(--green-2)}
 :focus-visible{outline:3px solid var(--focus);outline-offset:2px;border-radius:3px}
 .container{max-width:var(--maxw)}
 img{max-width:100%;height:auto}
-mark.search-highlight{background:#FFF0A8;padding:0 2px}
 
 /* ---------- skip link ---------- */
 .skip-link{position:absolute;inset-inline-start:-9999px;top:0;background:var(--ink);color:#fff;padding:.6rem 1rem;z-index:2000}
@@ -84,9 +83,6 @@ mark.search-highlight{background:#FFF0A8;padding:0 2px}
 .brand-name b{font-size:1.02rem;color:var(--ink);font-weight:700;letter-spacing:.01em}
 .brand-name span{font-size:.78rem;color:var(--slate)}
 .utility-tools{display:flex;align-items:center;gap:.9rem;flex-wrap:wrap}
-.site-search{display:flex;align-items:center;gap:.5rem;background:var(--paper);border:1px solid var(--hair);border-radius:var(--radius);padding:.35rem .65rem}
-.site-search i{color:var(--slate);font-size:.85rem}
-.site-search input{border:0;background:transparent;outline:none;font:inherit;font-size:.9rem;width:180px;color:var(--ink)}
 .lang-switch{display:flex;border:1px solid var(--hair-strong);border-radius:var(--radius);overflow:hidden}
 .lang-btn{border:0;background:var(--white);color:var(--slate);font:inherit;font-size:.85rem;font-weight:600;padding:.3rem .75rem;cursor:pointer}
 .lang-btn+.lang-btn{border-inline-start:1px solid var(--hair)}
@@ -148,6 +144,9 @@ mark.search-highlight{background:#FFF0A8;padding:0 2px}
 .door:hover{background:var(--paper);color:var(--ink)}
 .door .door-icon{color:var(--door-c,var(--green));font-size:1.1rem;margin-bottom:.7rem;display:block}
 
+.hero-tagline{color:#9FD8B6;font-weight:600;letter-spacing:.04em;margin-bottom:1.1rem}
+.doors-3{grid-template-columns:repeat(3,1fr)}
+
 /* ---------- content blocks ---------- */
 .block{background:var(--white);border:1px solid var(--hair);border-radius:10px;padding:1.7rem}
 .block+.block{margin-top:1.1rem}
@@ -165,6 +164,14 @@ mark.search-highlight{background:#FFF0A8;padding:0 2px}
 .notice h3{font-size:1rem;display:flex;align-items:center;gap:.5rem;margin-bottom:.5rem}
 .notice p{font-size:.94rem;margin-bottom:.5rem;color:var(--ink-2)}
 .notice p:last-child{margin-bottom:0}
+.block-link{display:block;text-decoration:none;color:var(--ink)}
+.block-link:hover{background:var(--paper);color:var(--ink)}
+.block-link h3{margin-bottom:.3rem}
+.pill-row{display:flex;flex-wrap:wrap;gap:.5rem}
+.pill{border:1px solid var(--hair-strong);border-radius:999px;padding:.35rem .95rem;font-size:.92rem;background:var(--paper)}
+.policy h3{font-size:.98rem;margin-bottom:.35rem;padding-inline-start:.7rem;border-inline-start:3px solid var(--green)}
+.policy p{font-size:.93rem;color:var(--ink-2);margin-bottom:0}
+.policy{margin-bottom:.4rem}
 .muted{color:var(--slate)}
 .small{font-size:.88rem}
 
@@ -215,23 +222,12 @@ footer a:hover{color:#fff;text-decoration:underline}
 .back-to-top{position:fixed;inset-block-end:1.2rem;inset-inline-end:1.2rem;width:44px;height:44px;border-radius:50%;background:var(--ink);color:#fff;border:0;display:none;place-items:center;cursor:pointer;z-index:900;box-shadow:0 6px 18px rgba(18,38,63,.28)}
 .back-to-top.show{display:grid}
 
-/* ---------- search modal ---------- */
-.search-modal{position:fixed;inset:0;background:rgba(18,38,63,.55);z-index:1200;display:none;padding:6vh 1rem}
-.search-modal.open{display:block}
-.search-panel{max-width:720px;margin:0 auto;background:#fff;border-radius:10px;padding:1.4rem;max-height:80vh;overflow:auto}
-.search-panel-head{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--hair);padding-bottom:.7rem;margin-bottom:.9rem}
-.search-panel-head h3{margin:0}
-.search-close{border:0;background:transparent;font-size:1.2rem;cursor:pointer;color:var(--slate)}
-.search-result{display:block;padding:.85rem;border:1px solid var(--hair);border-radius:var(--radius);margin-bottom:.6rem;text-decoration:none;color:var(--ink)}
-.search-result:hover{background:var(--paper)}
-.search-result b{display:block;color:var(--green)}
-.search-result span{font-size:.88rem;color:var(--slate)}
-
 /* ---------- responsive ---------- */
 @media (max-width:991px){
   .hero-inner{grid-template-columns:1fr;gap:1.6rem}
   .hero .hero-mark{order:-1;width:min(200px,60vw)}
   .doors{grid-template-columns:1fr 1fr}
+  .doors-3{grid-template-columns:1fr}
   .door{border-bottom:1px solid var(--hair)}
   .door:nth-child(2n){border-inline-end:0}
   .grid-3{grid-template-columns:1fr 1fr}
@@ -242,10 +238,9 @@ footer a:hover{color:#fff;text-decoration:underline}
   .navbar .dropdown-item:hover{background:rgba(255,255,255,.1);color:#fff}
 }
 @media (max-width:767px){
-  .doors{grid-template-columns:1fr}
+  .doors,.doors-3{grid-template-columns:1fr}
   .door{border-inline-end:0}
   .grid-2,.grid-3{grid-template-columns:1fr}
-  .site-search input{width:130px}
   .brand img{width:44px;height:44px}
   .utility-inner{padding:.6rem 1rem}
   .block{padding:1.25rem}
@@ -267,16 +262,11 @@ footer a:hover{color:#fff;text-decoration:underline}
       <img src="assets/logoICCC.png" alt="Iranian Civil Community CIC">
       <span class="brand-name">
         <b data-i18n="brand.name">جامعه مدنی ایرانیان</b>
-        <span data-i18n="brand.tagline">مردم • پیوند • با هم روشن‌تر</span>
+        <span data-i18n="brand.tagline">مشارکت • همبستگی • حمایت</span>
       </span>
     </a>
 
     <div class="utility-tools">
-      <div class="site-search">
-        <i class="fas fa-search" aria-hidden="true"></i>
-        <input type="text" id="siteSearchInput" data-i18n-ph="search.placeholder" placeholder="جستجو در این سایت..." aria-label="Search this website">
-      </div>
-
       <div class="lang-switch" role="group" aria-label="Language">
         <button class="lang-btn" data-lang="en" type="button">EN</button>
         <button class="lang-btn active" data-lang="fa" type="button">فا</button>
@@ -297,7 +287,7 @@ footer a:hover{color:#fff;text-decoration:underline}
   <div class="container">
     <a class="navbar-brand d-lg-none" href="#home">
       <img src="assets/logoICCC.png" alt="">
-      <span data-i18n="brand.short">ICCC</span>
+      <span data-i18n="brand.name">جامعه مدنی ایرانیان</span>
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Menu">
       <span class="navbar-toggler-icon"></span>
@@ -305,45 +295,16 @@ footer a:hover{color:#fff;text-decoration:underline}
 
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav mx-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="#home" id="home-link" data-i18n="nav.home">خانه</a>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="about-main-link" data-i18n="nav.about">درباره ما</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#about" id="about-link" data-i18n="nav.about.intro">معرفی مجموعه</a></li>
-            <li><a class="dropdown-item" href="#what-we-do" id="what-we-do-link" data-i18n="nav.about.work">فعالیت‌های ما</a></li>
-            <li><a class="dropdown-item" href="#governance" id="governance-link" data-i18n="nav.about.gov">ثبت و ساختار</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="support-main-link" data-i18n="nav.support">حمایت</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#support" id="support-link" data-i18n="nav.support.request">درخواست حمایت</a></li>
-            <li><a class="dropdown-item" href="#safety" id="safety-link" data-i18n="nav.support.safety">امنیت و حریم خصوصی</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="involved-main-link" data-i18n="nav.involved">همراهی</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#volunteer" id="volunteer-link" data-i18n="nav.involved.volunteer">ثبت‌نام داوطلب</a></li>
-            <li><a class="dropdown-item" href="#work-with-us" id="work-with-us-link" data-i18n="nav.involved.work">همکاری با ما</a></li>
-          </ul>
-        </li>
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" id="contact-main-link" data-i18n="nav.contact">تماس</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#contact" id="contact-link" data-i18n="nav.contact.overview">راه‌های تماس</a></li>
-            <li><a class="dropdown-item" href="#get-in-touch" id="get-in-touch-link" data-i18n="nav.contact.form">ارسال پیام</a></li>
-          </ul>
-        </li>
+        <li class="nav-item"><a class="nav-link active" href="#home" id="home-link" data-i18n="nav.home">خانه</a></li>
+        <li class="nav-item"><a class="nav-link" href="#about" id="about-link" data-i18n="nav.about">درباره ما</a></li>
+        <li class="nav-item"><a class="nav-link" href="#our-work" id="our-work-link" data-i18n="nav.work">فعالیت‌های ما</a></li>
+        <li class="nav-item"><a class="nav-link" href="#support" id="support-link" data-i18n="nav.support">درخواست حمایت</a></li>
+        <li class="nav-item"><a class="nav-link" href="#volunteer" id="volunteer-link" data-i18n="nav.volunteer">ثبت‌نام داوطلب</a></li>
+        <li class="nav-item"><a class="nav-link" href="#work-with-us" id="work-with-us-link" data-i18n="nav.partner">همکاری با ما</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact" id="contact-link" data-i18n="nav.contact">تماس و حریم خصوصی</a></li>
       </ul>
 
-      <a class="nav-cta" href="#support"><i class="fas fa-lock"></i><span data-i18n="nav.cta">درخواست حمایت</span></a>
+      <a class="nav-cta" href="#support"><i class="fas fa-hand-holding-heart"></i><span data-i18n="nav.cta">درخواست حمایت</span></a>
     </div>
   </div>
 </nav>
@@ -354,58 +315,40 @@ footer a:hover{color:#fff;text-decoration:underline}
 <!-- ================= Main content ================= -->
 <main class="main-content" id="content-area" tabindex="-1"></main>
 
-<!-- ================= Search modal ================= -->
-<div class="search-modal" id="searchModal">
-  <div class="search-panel">
-    <div class="search-panel-head">
-      <h3 data-i18n="search.results">نتایج جستجو</h3>
-      <button class="search-close" id="closeSearchBtn" aria-label="Close"><i class="fas fa-times"></i></button>
-    </div>
-    <div id="searchResultsContainer"></div>
-  </div>
-</div>
-
 <!-- ================= Footer ================= -->
 <footer>
   <div class="container">
     <div class="row g-4">
-      <div class="col-lg-4">
+      <div class="col-lg-5">
         <div class="footer-brand">
           <img src="assets/logoICCC.png" alt="">
           <div>
-            <h4 class="mb-1" data-i18n="brand.name">جامعه مدنی ایرانیان</h4>
-            <div class="small" data-i18n="brand.legal">Iranian Civil Community CIC</div>
+            <h4 class="mb-1">IRANIAN CIVIL COMMUNITY CIC</h4>
+            <div class="small" data-i18n="footer.legal1">UK Registered Community Interest Company</div>
+            <div class="small">Company No. 17308687 &nbsp;|&nbsp; <span data-i18n="footer.uk">United Kingdom</span></div>
           </div>
         </div>
-        <p class="small" data-i18n="footer.blurb">ما در کنار ایرانیانی هستیم که به دلیل فعالیت مدنی و سیاسی ناچار به ترک ایران شده‌اند.</p>
+        <p class="small" data-i18n="footer.blurb">نهادی مستقل و مردمی برای تقویت مشارکت مدنی، پیوند میان ایرانیان و حمایت از جامعه ایرانی.</p>
       </div>
 
-      <div class="col-6 col-lg-2">
+      <div class="col-6 col-lg-3">
         <h4 data-i18n="footer.pages">صفحه‌ها</h4>
         <ul class="footer-list">
-          <li><a href="#home" class="footer-nav-link" data-i18n="nav.home">خانه</a></li>
-          <li><a href="#about" class="footer-nav-link" data-i18n="nav.about.intro">معرفی مجموعه</a></li>
-          <li><a href="#what-we-do" class="footer-nav-link" data-i18n="nav.about.work">فعالیت‌های ما</a></li>
-          <li><a href="#governance" class="footer-nav-link" data-i18n="nav.about.gov">ثبت و ساختار</a></li>
+          <li><a href="#about" data-i18n="nav.about">درباره ما</a></li>
+          <li><a href="#our-work" data-i18n="nav.work">فعالیت‌های ما</a></li>
+          <li><a href="#support" data-i18n="nav.support">درخواست حمایت</a></li>
+          <li><a href="#volunteer" data-i18n="nav.volunteer">ثبت‌نام داوطلب</a></li>
+          <li><a href="#work-with-us" data-i18n="nav.partner">همکاری با ما</a></li>
         </ul>
       </div>
 
-      <div class="col-6 col-lg-2">
-        <h4 data-i18n="footer.services">خدمات</h4>
-        <ul class="footer-list">
-          <li><a href="#support" class="footer-nav-link" data-i18n="nav.support.request">درخواست حمایت</a></li>
-          <li><a href="#volunteer" class="footer-nav-link" data-i18n="nav.involved.volunteer">ثبت‌نام داوطلب</a></li>
-          <li><a href="#work-with-us" class="footer-nav-link" data-i18n="nav.involved.work">همکاری با ما</a></li>
-          <li><a href="#safety" class="footer-nav-link" data-i18n="nav.support.safety">امنیت و حریم خصوصی</a></li>
-        </ul>
-      </div>
-
-      <div class="col-lg-4">
+      <div class="col-6 col-lg-4">
         <h4 data-i18n="footer.contact">تماس</h4>
         <ul class="footer-list">
-          <li><i class="fas fa-envelope me-2"></i><a href="mailto:info@iraniancivilcommunity.org">info@iraniancivilcommunity.org</a></li>
-          <li><i class="fas fa-shield-halved me-2"></i><a href="mailto:support@iraniancivilcommunity.org">support@iraniancivilcommunity.org</a></li>
-          <li><i class="fas fa-location-dot me-2"></i><span data-i18n="footer.addr">London, United Kingdom</span></li>
+          <li><span data-i18n="footer.site">وب‌سایت رسمی:</span> [final official domain]</li>
+          <li><i class="fas fa-envelope me-2"></i>info@[official-domain]</li>
+          <li><i class="fas fa-life-ring me-2"></i>support@[official-domain]</li>
+          <li><i class="fas fa-location-dot me-2"></i><span data-i18n="footer.uk">United Kingdom</span></li>
         </ul>
         <div class="social-links mt-3">
           <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="fab fa-instagram"></i></a>
@@ -417,10 +360,10 @@ footer a:hover{color:#fff;text-decoration:underline}
     </div>
 
     <div class="footer-bottom">
-      <div><span data-i18n="footer.rights">© ۲۰۲۶ Iranian Civil Community CIC — تمامی حقوق محفوظ است.</span></div>
+      <div data-i18n="footer.rights">© ۲۰۲۶ Iranian Civil Community CIC. تمامی حقوق محفوظ است.</div>
       <div>
-        <a href="#safety" class="footer-nav-link me-3" data-i18n="footer.privacy">حریم خصوصی</a>
-        <a href="#governance" class="footer-nav-link" data-i18n="footer.company">اطلاعات ثبت شرکت</a>
+        <a href="#contact" class="me-3" data-i18n="footer.privacy">حریم خصوصی</a>
+        <a href="#contact" data-i18n="nav.contact">تماس</a>
       </div>
     </div>
   </div>
@@ -432,12 +375,12 @@ footer a:hover{color:#fff;text-decoration:underline}
 <script>
 /* =========================================================================
    Iranian Civil Community CIC — front-end
-   Structure mirrors the reference site: hash routing, templates, i18n.
+   Company No. 17308687 — United Kingdom
+   Phase one: seven pages, two languages, no accounts, no case tracking.
    ========================================================================= */
 (function () {
   "use strict";
 
-  /* API base. Leave empty when the PHP backend sits next to index.html. */
   var API_BASE = window.ICCC_API_BASE || "api/";
 
   /* ============================ DICTIONARY ============================ */
@@ -445,575 +388,368 @@ footer a:hover{color:#fff;text-decoration:underline}
     fa: {
       "skip": "پرش به محتوای اصلی",
       "brand.name": "جامعه مدنی ایرانیان",
-      "brand.short": "جامعه مدنی ایرانیان",
-      "brand.legal": "Iranian Civil Community CIC",
-      "brand.tagline": "مردم • پیوند • با هم روشن‌تر",
-      "search.placeholder": "جستجو در این سایت...",
-      "search.results": "نتایج جستجو",
-      "search.none": "چیزی پیدا نشد. با واژه دیگری جستجو کنید.",
-      "nav.home": "خانه",
-      "nav.about": "درباره ما",
-      "nav.about.intro": "معرفی مجموعه",
-      "nav.about.work": "فعالیت‌های ما",
-      "nav.about.gov": "ثبت و ساختار",
-      "nav.support": "حمایت",
-      "nav.support.request": "درخواست حمایت",
-      "nav.support.safety": "امنیت و حریم خصوصی",
-      "nav.involved": "همراهی",
-      "nav.involved.volunteer": "ثبت‌نام داوطلب",
-      "nav.involved.work": "همکاری با ما",
-      "nav.contact": "تماس",
-      "nav.contact.overview": "راه‌های تماس",
-      "nav.contact.form": "ارسال پیام",
-      "nav.cta": "درخواست حمایت",
-      "footer.pages": "صفحه‌ها",
-      "footer.services": "خدمات",
-      "footer.contact": "تماس",
-      "footer.addr": "لندن، بریتانیا",
-      "footer.blurb": "ما در کنار ایرانیانی هستیم که به دلیل فعالیت مدنی و سیاسی ناچار به ترک ایران شده‌اند.",
-      "footer.rights": "© ۲۰۲۶ Iranian Civil Community CIC — تمامی حقوق محفوظ است.",
-      "footer.privacy": "حریم خصوصی",
-      "footer.company": "اطلاعات ثبت شرکت",
+      "brand.tagline": "مشارکت • همبستگی • حمایت",
       "ui.home": "خانه",
       "ui.lang.fa": "فارسی",
       "ui.lang.en": "انگلیسی",
 
+      "nav.home": "خانه",
+      "nav.about": "درباره ما",
+      "nav.work": "فعالیت‌های ما",
+      "nav.support": "درخواست حمایت",
+      "nav.volunteer": "ثبت‌نام داوطلب",
+      "nav.partner": "همکاری با ما",
+      "nav.contact": "تماس و حریم خصوصی",
+      "nav.cta": "درخواست حمایت",
+
+      "footer.legal1": "شرکت منافع اجتماعی ثبت‌شده در بریتانیا",
+      "footer.uk": "بریتانیا",
+      "footer.pages": "صفحه‌ها",
+      "footer.contact": "تماس",
+      "footer.site": "وب‌سایت رسمی:",
+      "footer.blurb": "نهادی مستقل و مردمی برای تقویت مشارکت مدنی، پیوند میان ایرانیان و حمایت از جامعه ایرانی.",
+      "footer.rights": "© ۲۰۲۶ Iranian Civil Community CIC. تمامی حقوق محفوظ است.",
+      "footer.privacy": "حریم خصوصی",
+
       /* ---------- home ---------- */
       "home.title": "جامعه مدنی ایرانیان",
-      "home.subtitle": "حمایت، همبستگی و کمک عملی برای ایرانیانی که زندگی‌شان را از نو می‌سازند.",
-      "home.hero.title": "کسی تنها نماند",
-      "home.hero.text": "جامعه مدنی ایرانیان یک شرکت منافع اجتماعی ثبت‌شده در بریتانیاست. ما به ایرانیانی که به دلیل فعالیت مدنی، حقوق بشری یا سیاسی ناچار به ترک ایران شده‌اند کمک می‌کنیم تا راه خود را در کشور تازه پیدا کنند: راهنمایی، ارجاع به وکیل و نهادهای معتبر، پیوند با جامعه ایرانیان و همراهی انسانی.",
-      "home.hero.cta1": "درخواست حمایت",
-      "home.hero.cta2": "داوطلب می‌شوم",
+      "home.subtitle": "مشارکت • همبستگی • حمایت",
+      "home.hero.p1": "IRANIAN CIVIL COMMUNITY CIC یک نهاد مستقل و مردمی ثبت‌شده در بریتانیاست که برای تقویت مشارکت مدنی، پیوند میان ایرانیان و حمایت از جامعه ایرانی فعالیت می‌کند.",
+      "home.hero.p2": "ما تلاش می‌کنیم فضایی قابل اعتماد برای همکاری داوطلبانه، ارتباط میان افراد و سازمان‌ها، و حمایت مسئولانه از ایرانیانی که به کمک نیاز دارند ایجاد کنیم.",
+      "home.cta1": "درخواست حمایت",
+      "home.cta2": "ثبت‌نام داوطلب",
+      "home.cta3": "همکاری با ما",
       "home.door1.t": "درخواست حمایت",
-      "home.door1.p": "اگر به دلیل فعالیت‌هایتان ایران را ترک کرده‌اید و به کمک نیاز دارید، از این مسیر امن با ما تماس بگیرید.",
+      "home.door1.p": "ثبت درخواست اولیه برای بررسی و حمایت سازمانی.",
       "home.door2.t": "ثبت‌نام داوطلب",
-      "home.door2.p": "وقت و مهارت خود را در اختیار بگذارید؛ ترجمه، مشاوره، آموزش، رویداد یا پشتیبانی روزمره.",
+      "home.door2.p": "ثبت مشخصات، زبان‌ها و تخصص برای همکاری داوطلبانه.",
       "home.door3.t": "همکاری با ما",
-      "home.door3.p": "سازمان‌ها، وکلا، پژوهشگران و متخصصانی که می‌خواهند با ما کار کنند.",
-      "home.door4.t": "معرفی مجموعه",
-      "home.door4.p": "ما که هستیم، چه می‌کنیم و اطلاعات ثبت رسمی ما در بریتانیا.",
-      "home.how.t": "کمک ما چگونه است",
-      "home.how.1": "راهنمایی گام‌به‌گام درباره روند پناهندگی و حقوق اولیه در کشور مقصد.",
-      "home.how.2": "ارجاع به وکیل مهاجرت، سازمان‌های حقوق بشری و خدمات سلامت روان.",
-      "home.how.3": "پیوند با شبکه ایرانیان محلی، کلاس زبان و فرصت‌های کار و آموزش.",
-      "home.how.4": "همراهی در نوشتن روایت و مستندسازی پرونده، در چارچوب امن و محرمانه.",
-      "home.note.t": "پیش از ارسال اطلاعات بخوانید",
-      "home.note.p": "ما هرگز از شما رمز عبور، اطلاعات حساب بانکی یا پرداخت هزینه نمی‌خواهیم. اگر در ایران هستید یا امنیت شما در خطر است، پیش از تماس صفحه امنیت و حریم خصوصی را بخوانید.",
-      "home.note.link": "خواندن راهنمای امنیت",
-      "home.stat1.b": "دو زبان",
-      "home.stat1.s": "فارسی و انگلیسی در همه بخش‌ها",
-      "home.stat2.b": "بریتانیا",
-      "home.stat2.s": "ثبت‌شده به‌صورت Community Interest Company",
-      "home.stat3.b": "محرمانه",
-      "home.stat3.s": "پرونده‌های حمایت با دسترسی محدود نگهداری می‌شوند",
+      "home.door3.p": "برای متخصصان، سازمان‌ها و مجموعه‌های همسو.",
+      "home.work.t": "حوزه‌های فعالیت",
+      "home.work.link": "توضیح بیشتر درباره فعالیت‌ها",
+      "home.reg.t": "اطلاعات ثبت",
+      "home.reg.p": "IRANIAN CIVIL COMMUNITY CIC — شرکت منافع اجتماعی ثبت‌شده در بریتانیا، شماره ثبت ۱۷۳۰۸۶۸۷.",
+      "home.reg.link": "درباره ما",
 
       /* ---------- about ---------- */
-      "about.title": "معرفی مجموعه",
-      "about.subtitle": "ما که هستیم و چرا این کار را می‌کنیم.",
-      "about.who.t": "ما که هستیم",
-      "about.who.p1": "جامعه مدنی ایرانیان (Iranian Civil Community CIC) گروهی از ایرانیان ساکن بریتانیا و دیگر کشورهای دموکراتیک است؛ کسانی که خود مسیر مهاجرت اجباری، پناهندگی و ساختن دوباره زندگی را تجربه کرده‌اند. ما این تجربه را به کمک عملی برای دیگران تبدیل کرده‌ایم.",
-      "about.who.p2": "ما مستقل هستیم؛ به هیچ حزب، دولت یا گروه سیاسی وابسته نیستیم و از هیچ‌کس برای دریافت کمک هزینه‌ای نمی‌گیریم.",
-      "about.mission.t": "هدف ما",
-      "about.mission.p": "اینکه هیچ ایرانی که به دلیل دفاع از حقوق انسانی ناچار به ترک کشور شده، در تنهایی و سردرگمی رها نشود. ما پل میان فرد و نهادهای معتبر، جامعه محلی و شبکه‌ای از انسان‌های همراه هستیم.",
+      "about.title": "درباره ما",
+      "about.subtitle": "هویت، مأموریت و اطلاعات ثبت سازمان.",
+      "about.p1": "جامعه مدنی ایرانیان یک نهاد Community Interest Company ثبت‌شده در بریتانیاست که با هدف تقویت مشارکت مدنی، همبستگی اجتماعی و ایجاد شبکه‌ای از همکاری و حمایت برای ایرانیان فعالیت می‌کند.",
+      "about.p2": "ما یک مجموعه مستقل و غیرحزبی هستیم و تلاش می‌کنیم فعالیت‌های خود را بر مسئولیت مدنی، احترام به کرامت انسان، شفافیت، همکاری داوطلبانه و منافع جامعه متمرکز کنیم.",
+      "about.p3": "فعالیت‌های ما می‌تواند شامل پروژه‌های اجتماعی و فرهنگی، شبکه‌سازی جامعه ایرانی، جذب و سازمان‌دهی داوطلبان، همکاری با متخصصان و سازمان‌ها و برنامه‌های حمایتی برای ایرانیان نیازمند کمک باشد.",
+      "about.reg.t": "اطلاعات ثبت",
+      "about.reg.name": "نام ثبت‌شده",
+      "about.reg.type": "نوع نهاد",
+      "about.reg.type.v": "UK Registered Community Interest Company",
+      "about.reg.no": "شماره ثبت شرکت",
+      "about.reg.country": "کشور",
+      "about.reg.country.v": "بریتانیا / United Kingdom",
       "about.values.t": "اصول کار ما",
-      "about.v1": "کرامت انسانی: تصمیم با خود فرد است؛ ما اطلاعات و گزینه‌ها را می‌دهیم، نه دستور.",
-      "about.v2": "محرمانگی: اطلاعات شما بدون اجازه شما با هیچ فرد یا نهادی در میان گذاشته نمی‌شود.",
-      "about.v3": "استقلال: بدون وابستگی حزبی، دولتی یا مالی به گروه‌های سیاسی.",
-      "about.v4": "شفافیت: درباره اینکه چه می‌توانیم و چه نمی‌توانیم انجام دهیم صریح هستیم.",
-      "about.v5": "برابری: بدون تبعیض بر پایه جنسیت، مذهب، قومیت، گرایش جنسی یا دیدگاه سیاسی.",
+      "about.v1": "مسئولیت مدنی",
+      "about.v2": "احترام به کرامت انسان",
+      "about.v3": "شفافیت",
+      "about.v4": "همکاری داوطلبانه",
+      "about.v5": "منافع جامعه",
 
-      /* ---------- what we do ---------- */
-      "wwd.title": "فعالیت‌های ما",
-      "wwd.subtitle": "چهار حوزه‌ای که کار ما در فاز نخست بر آن متمرکز است.",
-      "wwd.a1.t": "راهنمایی و ارجاع",
-      "wwd.a1.p": "توضیح روند پناهندگی، حقوق اولیه، مسکن و سلامت در کشور مقصد و معرفی وکیل و سازمان‌های معتبر. ما وکیل نیستیم و مشاوره حقوقی رسمی نمی‌دهیم، اما شما را به مسیر درست می‌رسانیم.",
-      "wwd.a2.t": "شبکه اجتماعی و زبان",
-      "wwd.a2.p": "پیوند دادن تازه‌واردان به ایرانیان محلی، کلاس‌های زبان، رویدادهای فرهنگی و گروه‌های همیاری تا انزوا شکسته شود.",
-      "wwd.a3.t": "توانمندسازی و کار",
-      "wwd.a3.p": "کارگاه مهارت، بازنویسی رزومه، آماده‌سازی برای مصاحبه و معرفی فرصت‌های آموزشی و داوطلبانه برای بازگشت به مسیر حرفه‌ای.",
-      "wwd.a4.t": "مستندسازی و صدا",
-      "wwd.a4.p": "کمک به ثبت روایت‌ها و مستندات نقض حقوق بشر، با رضایت کامل و کنترل خود فرد بر اینکه چه چیزی و کجا منتشر شود.",
-      "wwd.limits.t": "آنچه انجام نمی‌دهیم",
-      "wwd.l1": "ویزا یا اقامت صادر نمی‌کنیم و در روند تصمیم‌گیری دولت‌ها نفوذی نداریم.",
-      "wwd.l2": "مشاوره حقوقی رسمی نمی‌دهیم؛ به وکلای دارای مجوز ارجاع می‌دهیم.",
-      "wwd.l3": "هزینه سفر یا قاچاق انسان را تأمین یا تسهیل نمی‌کنیم.",
-      "wwd.l4": "هیچ‌گاه بابت خدماتمان از شما پول نمی‌گیریم.",
+      /* ---------- our work ---------- */
+      "work.title": "فعالیت‌های ما",
+      "work.subtitle": "در فاز فعلی، فعالیت‌های ما در سه حوزه ساده معرفی می‌شود.",
+      "work.a1.t": "جامعه و مشارکت",
+      "work.a1.p": "ایجاد ارتباط، برنامه‌های اجتماعی و فرهنگی و تقویت مشارکت داوطلبانه ایرانیان.",
+      "work.a2.t": "حمایت و ارجاع",
+      "work.a2.p": "دریافت درخواست‌های اولیه، بررسی مستندات در چارچوب توان سازمان و ارجاع افراد به خدمات تخصصی در صورت نیاز.",
+      "work.a3.t": "همکاری و شبکه‌سازی",
+      "work.a3.p": "ایجاد ارتباط با متخصصان، سازمان‌ها، دانشگاهیان، مترجمان و سایر مجموعه‌های همسو با اهداف مدنی و اجتماعی.",
 
-      /* ---------- governance ---------- */
-      "gov.title": "ثبت و ساختار",
-      "gov.subtitle": "اطلاعات رسمی ثبت مجموعه در بریتانیا.",
-      "gov.reg.t": "اطلاعات ثبت",
-      "gov.name": "نام ثبت‌شده",
-      "gov.type": "نوع نهاد",
-      "gov.type.v": "Community Interest Company (CIC) — شرکت منافع اجتماعی با مسئولیت محدود",
-      "gov.number": "شماره ثبت شرکت",
-      "gov.number.v": "[شماره ثبت را اینجا وارد کنید]",
-      "gov.office": "دفتر ثبت‌شده",
-      "gov.office.v": "[نشانی دفتر ثبت‌شده]، لندن، بریتانیا",
-      "gov.regulator": "ناظر",
-      "gov.regulator.v": "Companies House و Office of the Regulator of Community Interest Companies",
-      "gov.cis.t": "بیانیه منافع اجتماعی",
-      "gov.cis.p": "دارایی‌ها و درآمد این شرکت صرف اهداف اجتماعی آن می‌شود: حمایت از ایرانیانی که به دلیل فعالیت مدنی و حقوق بشری ناچار به ترک ایران شده‌اند و تقویت جامعه ایرانیان در بریتانیا. سود میان اعضا تقسیم نمی‌شود و قفل دارایی (asset lock) بر دارایی‌های شرکت اعمال است.",
-      "gov.policies.t": "سیاست‌ها و اسناد",
-      "gov.p1": "سیاست حفاظت از داده و حریم خصوصی (GDPR بریتانیا)",
-      "gov.p2": "سیاست حفاظت از افراد آسیب‌پذیر (Safeguarding)",
-      "gov.p3": "سیاست برابری و تنوع",
-      "gov.p4": "سیاست داوطلبان و شکایات",
-      "gov.p.note": "نسخه کامل این اسناد در دست تدوین است و پس از تصویب هیئت مدیره در همین صفحه منتشر می‌شود.",
-
-      /* ---------- support ---------- */
+      /* ---------- request support ---------- */
       "sup.title": "درخواست حمایت",
-      "sup.subtitle": "یک مسیر امن برای گفتن اینکه چه اتفاقی افتاده و به چه کمکی نیاز دارید.",
-      "sup.sec.t": "پیش از شروع، این را بخوانید",
-      "sup.sec.1": "لازم نیست نام واقعی خود را بنویسید؛ یک نام مستعار کافی است.",
-      "sup.sec.2": "فقط چیزی را بنویسید که برای دریافت کمک لازم است. جزئیات بیشتر را بعداً و در مسیر امن‌تر می‌توان گفت.",
-      "sup.sec.3": "اگر از دستگاه مشترک یا خانوادگی استفاده می‌کنید، پس از ارسال، تاریخچه مرورگر را پاک کنید.",
-      "sup.sec.4": "ما هرگز رمز عبور، اطلاعات بانکی یا پرداخت هزینه از شما نمی‌خواهیم.",
-      "sup.sec.link": "راهنمای کامل امنیت",
-      "sup.risk.t": "اگر همین حالا در خطر فوری هستید",
-      "sup.risk.p": "این فرم برای مواقع اضطراری نیست و ممکن است تا چند روز بررسی نشود. اگر جان شما یا کسی در خطر فوری است، با اورژانس محلی یا پلیس کشور محل اقامت تماس بگیرید.",
-      "sup.s1": "درباره شما",
-      "sup.s2": "وضعیت کنونی",
-      "sup.s3": "چه کمکی لازم دارید",
-      "sup.s4": "مدارک و رضایت",
-      "sup.f.alias": "نام یا نام مستعار",
-      "sup.f.alias.h": "هر نامی که با آن شما را صدا کنیم. نام واقعی لازم نیست.",
-      "sup.f.email": "ایمیل تماس",
-      "sup.f.email.h": "ترجیحاً ایمیلی که فقط برای همین کار ساخته‌اید (مثلاً Proton Mail).",
-      "sup.f.channel": "راه تماس دیگر (اختیاری)",
-      "sup.f.channel.h": "برای نمونه شماره سیگنال. اگر ترجیح می‌دهید خالی بگذارید.",
-      "sup.f.lang": "زبان ترجیحی برای پاسخ",
-      "sup.f.country": "کشور محل اقامت کنونی",
-      "sup.f.city": "شهر (اختیاری)",
-      "sup.f.status": "وضعیت کنونی شما",
-      "sup.f.status.o0": "انتخاب کنید",
-      "sup.f.status.o1": "هنوز در ایران هستم",
-      "sup.f.status.o2": "در کشور سوم و در انتظار تصمیم",
-      "sup.f.status.o3": "درخواست پناهندگی داده‌ام",
-      "sup.f.status.o4": "پناهندگی‌ام پذیرفته شده است",
-      "sup.f.status.o5": "درخواستم رد شده است",
-      "sup.f.status.o6": "وضعیت دیگر",
-      "sup.f.needs": "به چه کمکی نیاز دارید",
-      "sup.f.needs.h": "هر تعداد که لازم است انتخاب کنید.",
-      "sup.f.n1": "راهنمایی درباره روند پناهندگی",
-      "sup.f.n2": "معرفی وکیل مهاجرت",
-      "sup.f.n3": "مسکن و نیازهای اولیه",
-      "sup.f.n4": "سلامت روان و مشاوره",
-      "sup.f.n5": "زبان، کار و آموزش",
-      "sup.f.n6": "ارتباط با جامعه ایرانیان",
-      "sup.f.n7": "مستندسازی پرونده و روایت",
-      "sup.f.story": "شرح کوتاه وضعیت شما",
-      "sup.f.story.h": "در چند جمله بنویسید چه اتفاقی افتاده و اکنون چه چیزی بیشتر از همه لازم دارید.",
-      "sup.f.files": "بارگذاری مدارک (اختیاری)",
-      "sup.f.files.h": "تنها در صورت نیاز. PDF، JPG، PNG یا DOCX — حداکثر ۵ فایل و هر فایل تا ۱۰ مگابایت. فایل‌ها رمزگذاری‌شده و بیرون از دسترس عمومی ذخیره می‌شوند.",
-      "sup.f.drop": "فایل را اینجا رها کنید یا برای انتخاب کلیک کنید",
-      "sup.f.c1": "تأیید می‌کنم اطلاعاتی که فرستاده‌ام تا جایی که می‌دانم درست است.",
-      "sup.f.c2": "اجازه می‌دهم جامعه مدنی ایرانیان این اطلاعات را تنها برای بررسی و پاسخ به درخواست من نگه دارد و پردازش کند.",
-      "sup.f.c3": "می‌دانم که برای ارجاع به وکیل یا سازمان دیگر، هر بار جداگانه از من اجازه گرفته می‌شود.",
-      "sup.submit": "ارسال امن درخواست",
-      "sup.next.t": "پس از ارسال چه می‌شود",
-      "sup.next.1": "یک کد پیگیری می‌گیرید. آن را جایی امن نگه دارید.",
-      "sup.next.2": "درخواست شما را فقط دو نفر از تیم حمایت می‌بینند.",
-      "sup.next.3": "معمولاً ظرف ۵ تا ۷ روز کاری با شما تماس می‌گیریم.",
-      "sup.next.4": "اگر کاری از ما برنیاید، صریح می‌گوییم و در صورت امکان جای دیگری را معرفی می‌کنیم.",
-
-      /* ---------- safety ---------- */
-      "safe.title": "امنیت و حریم خصوصی",
-      "safe.subtitle": "با اطلاعات شما چه می‌کنیم و خودتان چگونه امن‌تر بمانید.",
-      "safe.us.t": "از طرف ما",
-      "safe.u1": "ارتباط سایت روی HTTPS رمزگذاری می‌شود و فرم‌ها از حفاظت ضد جعل درخواست (CSRF) استفاده می‌کنند.",
-      "safe.u2": "فایل‌های بارگذاری‌شده بیرون از پوشه عمومی وب و به شکل رمزگذاری‌شده ذخیره می‌شوند و نام آن‌ها تغییر می‌کند.",
-      "safe.u3": "دسترسی به پرونده‌های حمایت محدود به اعضای مشخص تیم است و هر بار مشاهده ثبت می‌شود.",
-      "safe.u4": "اطلاعات شما بدون اجازه صریح شما با هیچ نهاد، رسانه یا دولتی در میان گذاشته نمی‌شود.",
-      "safe.u5": "پرونده‌ها پس از دو سال بی‌فعالیتی یا هر زمان که شما بخواهید، حذف می‌شوند.",
-      "safe.u6": "ما از ابزار ردیابی و تبلیغاتی در این سایت استفاده نمی‌کنیم.",
-      "safe.you.t": "از طرف شما",
-      "safe.y1": "از دستگاه شخصی خود استفاده کنید، نه رایانه کار یا اینترنت‌کافه.",
-      "safe.y2": "یک ایمیل تازه و بی‌ارتباط با نام واقعی‌تان بسازید.",
-      "safe.y3": "اگر در ایران هستید، بدون VPN معتبر یا مرورگر Tor این فرم را پر نکنید.",
-      "safe.y4": "نام واقعی، نشانی دقیق و نام دیگران را تنها وقتی بنویسید که واقعاً لازم است.",
-      "safe.y5": "پس از ارسال، تاریخچه مرورگر و فایل‌های دانلودشده را پاک کنید.",
-      "safe.rights.t": "حقوق شما درباره داده‌ها",
-      "safe.r.p": "بر پایه قانون حفاظت از داده بریتانیا (UK GDPR) شما حق دارید نسخه‌ای از اطلاعات خود را بخواهید، آن را اصلاح کنید، حذف آن را بخواهید یا رضایت خود را پس بگیرید. برای این کار با کد پیگیری خود به نشانی privacy@iraniancivilcommunity.org بنویسید.",
-      "safe.never.t": "ما هرگز این‌ها را نمی‌خواهیم",
-      "safe.n1": "رمز عبور یا کد ورود دو مرحله‌ای",
-      "safe.n2": "اطلاعات حساب بانکی یا پرداخت",
-      "safe.n3": "نام و اطلاعات تماس افراد دیگر بدون اجازه آن‌ها",
+      "sup.subtitle": "ثبت درخواست اولیه برای بررسی و حمایت سازمانی.",
+      "sup.p1": "اگر به دلیل فعالیت‌های مدنی، اجتماعی، رسانه‌ای یا سیاسی و مخالفت با جمهوری اسلامی مجبور به ترک ایران شده‌اید و در یک کشور دموکراتیک درخواست حمایت یا پناهندگی کرده‌اید، می‌توانید درخواست اولیه خود را برای بررسی به جامعه مدنی ایرانیان ارسال کنید.",
+      "sup.p2": "پس از دریافت درخواست، تیم ما اطلاعات اولیه را بررسی می‌کند. در صورت نیاز، برای دریافت توضیحات یا مستندات تکمیلی با شما تماس گرفته خواهد شد. در مواردی که اطلاعات و مستندات قابل اتکا باشد و در چارچوب وظایف سازمان قرار گیرد، ممکن است حمایت سازمانی، مستندسازی یا معرفی به خدمات تخصصی انجام شود.",
+      "sup.disclaimer.t": "مهم",
+      "sup.disclaimer.p": "جامعه مدنی ایرانیان درباره نتیجه پرونده پناهندگی یا مهاجرت تصمیم‌گیری نمی‌کند، نتیجه پرونده را تضمین نمی‌کند و این خدمت جایگزین مشاوره حقوقی یا نمایندگی توسط وکیل یا مشاور مهاجرتی مجاز نیست.",
+      "sup.docs.t": "درباره مدارک",
+      "sup.docs.p": "در این مرحله مدرکی بارگذاری نکنید. اگر پس از بررسی اولیه به مستندات نیاز باشد، مسیر امن دریافت آن‌ها را جداگانه به شما اعلام می‌کنیم. این کار حجم اطلاعات حساسی را که نگهداری می‌شود کمتر می‌کند.",
+      "sup.form.t": "فرم درخواست",
+      "sup.f.name": "نام و نام خانوادگی",
+      "sup.f.country": "کشور محل اقامت فعلی",
+      "sup.f.email": "ایمیل",
+      "sup.f.phone": "شماره تماس",
+      "sup.f.contact": "روش ارتباط ترجیحی",
+      "sup.f.c0": "انتخاب کنید",
+      "sup.f.c1": "ایمیل",
+      "sup.f.c2": "تماس تلفنی",
+      "sup.f.c3": "پیام‌رسان امن (سیگنال)",
+      "sup.f.c4": "واتس‌اپ",
+      "sup.f.desc": "توضیح کوتاه درباره وضعیت و نوع حمایتی که درخواست می‌کنید",
+      "sup.f.desc.h": "در چند جمله بنویسید. لازم نیست در این مرحله همه جزئیات را بنویسید.",
+      "sup.f.consent1": "تأیید می‌کنم اطلاعات واردشده تا جایی که می‌دانم درست است و اجازه می‌دهم برای بررسی این درخواست نگهداری و پردازش شود.",
+      "sup.f.consent2": "سیاست حریم خصوصی را خوانده‌ام و می‌پذیرم.",
+      "sup.f.privacy.link": "خواندن سیاست حریم خصوصی",
+      "sup.submit": "ارسال درخواست",
+      "sup.after.t": "پس از ارسال",
+      "sup.after.p": "شماره پیگیری دریافت می‌کنید. لطفاً آن را برای مکاتبات بعدی نگه دارید.",
 
       /* ---------- volunteer ---------- */
       "vol.title": "ثبت‌نام داوطلب",
-      "vol.subtitle": "هر مهارتی دارید، جایی در این کار دارد.",
-      "vol.intro": "داوطلبان ستون این مجموعه‌اند. چند ساعت در ماه هم تفاوت ایجاد می‌کند. پس از ثبت‌نام با شما تماس می‌گیریم و درباره نقش مناسب گفت‌وگو می‌کنیم.",
-      "vol.roles.t": "نقش‌هایی که همین حالا لازم داریم",
-      "vol.r1": "ترجمه و همراهی زبانی (فارسی، انگلیسی، عربی، کردی، ترکی)",
-      "vol.r2": "همراهی در قرارهای اداری و پزشکی",
-      "vol.r3": "آموزش زبان انگلیسی و مهارت‌های پایه رایانه",
-      "vol.r4": "برگزاری رویداد و کار رسانه‌ای",
-      "vol.r5": "پشتیبانی فنی سایت و امنیت اطلاعات",
+      "vol.subtitle": "ثبت مشخصات و تخصص داوطلبان.",
+      "vol.p1": "جامعه مدنی با مشارکت مردم معنا پیدا می‌کند. اگر مایل هستید بخشی از زمان، تجربه یا تخصص خود را به‌صورت داوطلبانه در اختیار جامعه ایرانی قرار دهید، خوشحال می‌شویم با شما در ارتباط باشیم.",
+      "vol.p2": "پس از ثبت فرم، در صورت وجود زمینه مناسب برای همکاری، تیم ما با شما تماس خواهد گرفت.",
       "vol.f.name": "نام و نام خانوادگی",
-      "vol.f.email": "ایمیل",
-      "vol.f.phone": "شماره تماس (اختیاری)",
       "vol.f.country": "کشور",
       "vol.f.city": "شهر",
-      "vol.f.langs": "زبان‌هایی که می‌دانید",
-      "vol.f.skills": "تخصص و مهارت",
-      "vol.f.skills.h": "برای نمونه: ترجمه، حقوق، روان‌شناسی، آموزش، طراحی، برنامه‌نویسی، کار رسانه‌ای.",
-      "vol.f.avail": "زمان در دسترس",
-      "vol.f.a0": "انتخاب کنید",
-      "vol.f.a1": "تا ۲ ساعت در هفته",
-      "vol.f.a2": "۲ تا ۵ ساعت در هفته",
-      "vol.f.a3": "بیش از ۵ ساعت در هفته",
-      "vol.f.a4": "فقط برای رویدادها",
-      "vol.f.about": "چرا می‌خواهید داوطلب شوید",
-      "vol.f.consent": "اجازه می‌دهم اطلاعاتم برای هماهنگی کار داوطلبانه نگهداری شود.",
+      "vol.f.email": "ایمیل",
+      "vol.f.phone": "شماره تماس",
+      "vol.f.langs": "زبان‌ها",
+      "vol.f.skills": "تخصص یا مهارت",
+      "vol.f.interest": "زمینه مورد علاقه برای همکاری",
+      "vol.f.i0": "انتخاب کنید",
+      "vol.f.i1": "ترجمه و زبان",
+      "vol.f.i2": "برنامه‌های اجتماعی و فرهنگی",
+      "vol.f.i3": "آموزش و مهارت‌آموزی",
+      "vol.f.i4": "رسانه و ارتباطات",
+      "vol.f.i5": "پشتیبانی فنی و وب",
+      "vol.f.i6": "امور اداری و هماهنگی",
+      "vol.f.note": "توضیح کوتاه",
+      "vol.f.consent": "اجازه می‌دهم اطلاعاتم برای هماهنگی همکاری داوطلبانه نگهداری شود و سیاست حریم خصوصی را می‌پذیرم.",
       "vol.submit": "ثبت‌نام داوطلب",
 
       /* ---------- work with us ---------- */
-      "work.title": "همکاری با ما",
-      "work.subtitle": "برای سازمان‌ها، متخصصان و مجموعه‌هایی که می‌خواهند در کنار ما کار کنند.",
-      "work.intro": "ما به دنبال همکاری با دفاتر حقوقی، سازمان‌های پناهندگی، دانشگاه‌ها، رسانه‌ها، درمانگران و کسب‌وکارهایی هستیم که می‌توانند دری را به روی کسی باز کنند.",
-      "work.w1.t": "ارجاع تخصصی",
-      "work.w1.p": "وکلای مهاجرت، مشاوران و درمانگرانی که می‌توانند پرونده‌های ارجاعی ما را بپذیرند.",
-      "work.w2.t": "برنامه مشترک",
-      "work.w2.p": "کارگاه، کلاس زبان، رویداد فرهنگی یا پروژه پژوهشی مشترک.",
-      "work.w3.t": "پشتیبانی نهادی",
-      "work.w3.p": "کمک مالی، فضای رایگان، خدمات حرفه‌ای رایگان یا فرصت شغلی و کارآموزی.",
-      "work.f.org": "نام سازمان یا مجموعه",
-      "work.f.person": "نام فرد تماس",
-      "work.f.role": "سمت",
-      "work.f.email": "ایمیل کاری",
-      "work.f.website": "وب‌سایت (اختیاری)",
-      "work.f.country": "کشور",
-      "work.f.type": "نوع همکاری پیشنهادی",
-      "work.f.t0": "انتخاب کنید",
-      "work.f.t1": "ارجاع تخصصی و خدمات حرفه‌ای",
-      "work.f.t2": "برنامه یا پروژه مشترک",
-      "work.f.t3": "پشتیبانی مالی یا حمایت نهادی",
-      "work.f.t4": "فرصت شغلی و کارآموزی",
-      "work.f.t5": "موضوع دیگر",
-      "work.f.proposal": "شرح پیشنهاد",
-      "work.f.consent": "اجازه می‌دهم اطلاعات تماس سازمانم برای پیگیری این پیشنهاد نگهداری شود.",
-      "work.submit": "ارسال پیشنهاد همکاری",
+      "par.title": "همکاری با ما",
+      "par.subtitle": "ارتباط متخصصان، سازمان‌ها و همکاران احتمالی.",
+      "par.p1": "از همکاری با متخصصان، سازمان‌های مدنی، دانشگاهیان، وکلا و مشاوران مجاز، مترجمان، مراکز آموزشی و سایر مجموعه‌هایی که می‌توانند به توسعه خدمات اجتماعی و حمایتی کمک کنند استقبال می‌کنیم.",
+      "par.p2": "اگر مایل به همکاری هستید، لطفاً معرفی کوتاهی از خود یا سازمانتان و زمینه پیشنهادی همکاری برای ما ارسال کنید.",
+      "par.f.org": "نام فرد یا سازمان",
+      "par.f.person": "نام فرد تماس",
+      "par.f.email": "ایمیل",
+      "par.f.phone": "شماره تماس",
+      "par.f.country": "کشور",
+      "par.f.website": "وب‌سایت (اختیاری)",
+      "par.f.area": "زمینه پیشنهادی همکاری",
+      "par.f.intro": "معرفی کوتاه و توضیح پیشنهاد",
+      "par.f.consent": "اجازه می‌دهم اطلاعات تماس برای پیگیری این پیشنهاد نگهداری شود و سیاست حریم خصوصی را می‌پذیرم.",
+      "par.submit": "ارسال پیشنهاد همکاری",
 
-      /* ---------- contact ---------- */
-      "con.title": "راه‌های تماس",
-      "con.subtitle": "چند مسیر برای رسیدن به ما.",
+      /* ---------- contact & privacy ---------- */
+      "con.title": "تماس و حریم خصوصی",
+      "con.subtitle": "راه‌های تماس و سیاست حفاظت از اطلاعات.",
+      "con.emails.t": "راه‌های تماس",
+      "con.emails.note": "ایمیل‌های رسمی سازمان پس از بررسی و نهایی‌شدن دامنه رسمی فعال می‌شوند. برای فاز اول، ساختار پیشنهادی ساده است:",
       "con.general": "پرسش‌های عمومی",
-      "con.support": "درخواست حمایت",
-      "con.privacy": "حریم خصوصی و داده‌ها",
-      "con.press": "رسانه و همکاری",
-      "con.addr.t": "نشانی ثبت‌شده",
-      "con.addr.v": "[نشانی دفتر ثبت‌شده]، لندن، بریتانیا",
-      "con.hours.t": "زمان پاسخ‌گویی",
-      "con.hours.v": "دوشنبه تا جمعه، ۱۰ تا ۱۷ به وقت بریتانیا. پاسخ ایمیل‌ها معمولاً ظرف ۵ روز کاری.",
-      "con.note.t": "یک یادآوری",
-      "con.note.p": "برای درخواست حمایت، لطفاً به‌جای ایمیل معمولی از فرم درخواست حمایت استفاده کنید. آن مسیر برای نگهداری اطلاعات حساس ساخته شده است.",
-      "con.note.link": "رفتن به فرم درخواست حمایت",
-
-      /* ---------- get in touch ---------- */
-      "git.title": "ارسال پیام",
-      "git.subtitle": "برای پرسش‌های عمومی. اطلاعات حساس را اینجا نفرستید.",
-      "git.f.name": "نام",
-      "git.f.email": "ایمیل",
-      "git.f.subject": "موضوع",
-      "git.f.message": "پیام",
-      "git.f.consent": "اجازه می‌دهم برای پاسخ به این پیام با من تماس گرفته شود.",
-      "git.submit": "ارسال پیام",
+      "con.support": "درخواست‌های حمایتی",
+      "con.country": "کشور",
+      "con.later": "در صورت نیاز، ایمیل‌های بخش داوطلبان و همکاری‌ها بعداً افزوده می‌شوند.",
+      "con.privacy.t": "سیاست حریم خصوصی",
+      "con.privacy.intro": "این خلاصه سیاست حریم خصوصی فاز اول است و پیش از انتشار رسمی توسط فرد واجد صلاحیت حقوقی بازبینی می‌شود.",
+      "con.p1.t": "چه اطلاعاتی جمع‌آوری می‌شود",
+      "con.p1.p": "تنها اطلاعاتی که خودتان در فرم‌ها وارد می‌کنید: نام، کشور، ایمیل، شماره تماس، روش ارتباط ترجیحی و توضیحی که می‌نویسید. نشانی IP، اثر انگشت مرورگر و ابزار ردیابی ذخیره نمی‌شود.",
+      "con.p2.t": "برای چه هدفی",
+      "con.p2.p": "تنها برای بررسی و پاسخ به همان درخواست، هماهنگی همکاری داوطلبانه یا پیگیری پیشنهاد همکاری. اطلاعات شما فروخته نمی‌شود و برای تبلیغات به کار نمی‌رود.",
+      "con.p3.t": "چه مدت نگهداری می‌شود",
+      "con.p3.p": "درخواست‌های حمایت حداکثر ۲۴ ماه پس از آخرین ارتباط نگهداری و سپس حذف می‌شوند. اطلاعات داوطلبان و همکاران تا زمانی که همکاری فعال باشد یا تا درخواست حذف شما.",
+      "con.p4.t": "چگونه محافظت می‌شود",
+      "con.p4.p": "اطلاعات به‌صورت رمزگذاری‌شده و بیرون از فضای عمومی وب نگهداری می‌شود، در مخزن عمومی کد یا فایل عمومی ذخیره نمی‌شود، و دسترسی فقط برای افراد مجاز سازمان با ورود محافظت‌شده ممکن است. هر ورود و هر مشاهده ثبت می‌شود.",
+      "con.p5.t": "اشتراک‌گذاری با دیگران",
+      "con.p5.p": "اطلاعات شما بدون اجازه صریح شما با هیچ فرد، سازمان، رسانه یا نهاد دولتی در میان گذاشته نمی‌شود. ارجاع به خدمات تخصصی تنها با رضایت جداگانه شما انجام می‌شود.",
+      "con.p6.t": "حقوق شما",
+      "con.p6.p": "می‌توانید نسخه‌ای از اطلاعات خود را بخواهید، آن را اصلاح کنید، حذف آن را درخواست کنید یا رضایت خود را پس بگیرید. برای این کار با شماره پیگیری خود به ایمیل عمومی سازمان بنویسید.",
+      "con.never.t": "ما هرگز این‌ها را نمی‌خواهیم",
+      "con.n1": "رمز عبور یا کد ورود دو مرحله‌ای",
+      "con.n2": "اطلاعات حساب بانکی یا پرداخت هزینه",
+      "con.n3": "اطلاعات افراد دیگر بدون اجازه آن‌ها",
+      "con.tips.t": "چند نکته برای ارسال امن‌تر",
+      "con.t1": "از دستگاه شخصی خود استفاده کنید، نه رایانه مشترک یا کافی‌نت.",
+      "con.t2": "در این مرحله فقط اطلاعات لازم را بنویسید؛ جزئیات بیشتر را بعداً و در مسیر امن می‌توان فرستاد.",
+      "con.t3": "پس از ارسال، تاریخچه مرورگر دستگاه مشترک را پاک کنید.",
 
       /* ---------- form UI ---------- */
-      "form.required": "پر کردن این فیلد لازم است.",
-      "form.email.invalid": "نشانی ایمیل معتبر نیست.",
+      "form.required": "لطفاً فیلدهای الزامی را کامل کنید.",
       "form.consent.needed": "برای ادامه باید موافقت خود را تأیید کنید.",
       "form.sending": "در حال ارسال...",
-      "form.ok.support": "درخواست شما دریافت شد. کد پیگیری شما:",
-      "form.ok.generic": "پیام شما دریافت شد. سپاسگزاریم.",
+      "form.ok.support": "درخواست شما دریافت شد. تیم ما اطلاعات را بررسی می‌کند و در صورت نیاز به توضیحات بیشتر با شما تماس خواهد گرفت. لطفاً شماره پیگیری خود را برای مکاتبات بعدی نگهداری کنید.",
+      "form.ok.ref": "شماره پیگیری:",
+      "form.ok.generic": "فرم شما دریافت شد. سپاسگزاریم.",
       "form.err.network": "ارسال انجام نشد. این نسخه نمایشی هنوز به سرور وصل نیست؛ پس از راه‌اندازی بخش سرور، فرم فعال می‌شود.",
-      "form.err.server": "ارسال انجام نشد. لطفاً دوباره تلاش کنید یا به ما ایمیل بزنید.",
-      "form.file.type": "این نوع فایل پذیرفته نمی‌شود:",
-      "form.file.size": "این فایل بزرگ‌تر از ۱۰ مگابایت است:",
-      "form.file.count": "حداکثر ۵ فایل می‌توانید بفرستید."
+      "form.err.server": "ارسال انجام نشد. لطفاً دوباره تلاش کنید."
     },
     en: {
       "skip": "Skip to main content",
       "brand.name": "Iranian Civil Community",
-      "brand.short": "ICCC",
-      "brand.legal": "Iranian Civil Community CIC",
-      "brand.tagline": "People • Connection • Brighter Together",
-      "search.placeholder": "Search within this site...",
-      "search.results": "Search results",
-      "search.none": "Nothing found. Try a different word.",
-      "nav.home": "Home",
-      "nav.about": "About Us",
-      "nav.about.intro": "About Us",
-      "nav.about.work": "What We Do",
-      "nav.about.gov": "Registration",
-      "nav.support": "Support",
-      "nav.support.request": "Request Support",
-      "nav.support.safety": "Safety & Privacy",
-      "nav.involved": "Get Involved",
-      "nav.involved.volunteer": "Become a Volunteer",
-      "nav.involved.work": "Work With Us",
-      "nav.contact": "Contact",
-      "nav.contact.overview": "Contact Us",
-      "nav.contact.form": "Send a message",
-      "nav.cta": "Request Support",
-      "footer.pages": "Pages",
-      "footer.services": "Services",
-      "footer.contact": "Contact",
-      "footer.addr": "London, United Kingdom",
-      "footer.blurb": "We stand with Iranians who had to leave the country because of their civic and political activity.",
-      "footer.rights": "© 2026 Iranian Civil Community CIC. All rights reserved.",
-      "footer.privacy": "Privacy",
-      "footer.company": "Company details",
+      "brand.tagline": "Community • Solidarity • Support",
       "ui.home": "Home",
       "ui.lang.fa": "Persian",
       "ui.lang.en": "English",
 
+      "nav.home": "Home",
+      "nav.about": "About Us",
+      "nav.work": "Our Work",
+      "nav.support": "Request Support",
+      "nav.volunteer": "Become a Volunteer",
+      "nav.partner": "Work With Us",
+      "nav.contact": "Contact & Privacy",
+      "nav.cta": "Request Support",
+
+      "footer.legal1": "UK Registered Community Interest Company",
+      "footer.uk": "United Kingdom",
+      "footer.pages": "Pages",
+      "footer.contact": "Contact",
+      "footer.site": "Official website:",
+      "footer.blurb": "An independent, community-focused organisation strengthening civic participation, connection and support across the Iranian community.",
+      "footer.rights": "© 2026 Iranian Civil Community CIC. All rights reserved.",
+      "footer.privacy": "Privacy Policy",
+
       "home.title": "Iranian Civil Community",
-      "home.subtitle": "Support, solidarity and practical help for Iranians rebuilding their lives.",
-      "home.hero.title": "No one should do this alone",
-      "home.hero.text": "Iranian Civil Community is a community interest company registered in the United Kingdom. We help Iranians who had to leave the country because of civic, human rights or political activity to find their footing somewhere new: clear guidance, referrals to trusted lawyers and organisations, a way into the Iranian community, and people who stay in touch.",
-      "home.hero.cta1": "Request support",
-      "home.hero.cta2": "Volunteer with us",
-      "home.door1.t": "Request support",
-      "home.door1.p": "If you left Iran because of what you did or said, and you need help, this is the secure way to reach us.",
-      "home.door2.t": "Become a volunteer",
-      "home.door2.p": "Give a few hours: translation, mentoring, teaching, events, or everyday practical help.",
-      "home.door3.t": "Work with us",
-      "home.door3.p": "For organisations, lawyers, researchers and professionals who want to collaborate.",
-      "home.door4.t": "About us",
-      "home.door4.p": "Who we are, what we do, and our registration details in the UK.",
-      "home.how.t": "How we help",
-      "home.how.1": "Step-by-step guidance on the asylum process and your basic rights in the country you are in.",
-      "home.how.2": "Referrals to immigration lawyers, human rights organisations and mental health services.",
-      "home.how.3": "Introductions to local Iranians, language classes, and routes into work and study.",
-      "home.how.4": "Help writing up your account and organising case documents, handled confidentially.",
-      "home.note.t": "Read this before you send anything",
-      "home.note.p": "We will never ask for a password, bank details or any payment. If you are still in Iran, or your safety is at risk, read the safety guidance first.",
-      "home.note.link": "Read the safety guidance",
-      "home.stat1.b": "Two languages",
-      "home.stat1.s": "Persian and English throughout",
-      "home.stat2.b": "United Kingdom",
-      "home.stat2.s": "Registered as a Community Interest Company",
-      "home.stat3.b": "Confidential",
-      "home.stat3.s": "Support cases are held with restricted access",
+      "home.subtitle": "Community • Solidarity • Support",
+      "home.hero.p1": "IRANIAN CIVIL COMMUNITY CIC is an independent, community-focused organisation registered in the United Kingdom. We work to strengthen civic participation, connection and responsible support across the Iranian community.",
+      "home.hero.p2": "We aim to provide a trusted space for volunteering, cooperation between people and organisations, and practical support for Iranians who may need assistance.",
+      "home.cta1": "Request Support",
+      "home.cta2": "Become a Volunteer",
+      "home.cta3": "Work With Us",
+      "home.door1.t": "Request Support",
+      "home.door1.p": "Submit an initial request for review and organisational support.",
+      "home.door2.t": "Become a Volunteer",
+      "home.door2.p": "Register your details, languages and skills to volunteer with us.",
+      "home.door3.t": "Work With Us",
+      "home.door3.p": "For professionals, organisations and partners who share our aims.",
+      "home.work.t": "What we work on",
+      "home.work.link": "More about our work",
+      "home.reg.t": "Registration",
+      "home.reg.p": "IRANIAN CIVIL COMMUNITY CIC — UK Registered Community Interest Company, Company No. 17308687.",
+      "home.reg.link": "About us",
 
       "about.title": "About Us",
-      "about.subtitle": "Who we are and why we do this.",
-      "about.who.t": "Who we are",
-      "about.who.p1": "Iranian Civil Community CIC is a group of Iranians living in the UK and other democratic countries. Most of us have been through forced migration, the asylum process and the work of rebuilding a life. We turned that experience into practical help for other people.",
-      "about.who.p2": "We are independent. We are not affiliated with any party, government or political group, and we never charge anyone for help.",
-      "about.mission.t": "Our aim",
-      "about.mission.p": "That no Iranian who had to leave the country for defending human dignity is left alone and lost in the system. We are the bridge between a person and the institutions, the local community, and a network of people who care.",
-      "about.values.t": "How we work",
-      "about.v1": "Dignity: the decision is always yours. We give information and options, not instructions.",
-      "about.v2": "Confidentiality: nothing you tell us is shared with anyone without your permission.",
-      "about.v3": "Independence: no party, state or political funding.",
-      "about.v4": "Honesty: we are direct about what we can and cannot do.",
-      "about.v5": "Equality: no discrimination on gender, faith, ethnicity, sexuality or political view.",
+      "about.subtitle": "Our identity, purpose and registration details.",
+      "about.p1": "Iranian Civil Community CIC is a Community Interest Company registered in the United Kingdom. Our purpose is to strengthen civic participation, social solidarity and a practical network of cooperation and support for Iranians.",
+      "about.p2": "We are an independent and non-partisan community organisation. Our work is guided by civic responsibility, human dignity, transparency, voluntary participation and service to the community.",
+      "about.p3": "Our activities may include social and cultural projects, community networking, volunteer engagement, cooperation with professionals and organisations, and support programmes for Iranians who need assistance.",
+      "about.reg.t": "Registration details",
+      "about.reg.name": "Registered name",
+      "about.reg.type": "Entity type",
+      "about.reg.type.v": "UK Registered Community Interest Company",
+      "about.reg.no": "Company number",
+      "about.reg.country": "Country",
+      "about.reg.country.v": "United Kingdom",
+      "about.values.t": "What guides our work",
+      "about.v1": "Civic responsibility",
+      "about.v2": "Human dignity",
+      "about.v3": "Transparency",
+      "about.v4": "Voluntary participation",
+      "about.v5": "Service to the community",
 
-      "wwd.title": "What We Do",
-      "wwd.subtitle": "The four areas our first phase focuses on.",
-      "wwd.a1.t": "Guidance and referrals",
-      "wwd.a1.p": "Explaining the asylum process, your basic rights, housing and healthcare, and connecting you with trusted lawyers and organisations. We are not lawyers and do not give formal legal advice, but we get you to the right door.",
-      "wwd.a2.t": "Community and language",
-      "wwd.a2.p": "Connecting newcomers with local Iranians, language classes, cultural events and peer groups, so isolation does not set in.",
-      "wwd.a3.t": "Skills and work",
-      "wwd.a3.p": "Skills workshops, CV rewriting, interview preparation and routes into study, volunteering and employment.",
-      "wwd.a4.t": "Documentation and voice",
-      "wwd.a4.p": "Helping people record their accounts and human rights documentation, with full consent and with you deciding what is published and where.",
-      "wwd.limits.t": "What we do not do",
-      "wwd.l1": "We do not issue visas or status, and we have no influence over government decisions.",
-      "wwd.l2": "We do not give formal legal advice; we refer to regulated lawyers.",
-      "wwd.l3": "We do not fund or facilitate travel or people smuggling.",
-      "wwd.l4": "We never charge you for anything we do.",
-
-      "gov.title": "Registration",
-      "gov.subtitle": "Our official details in the United Kingdom.",
-      "gov.reg.t": "Registration details",
-      "gov.name": "Registered name",
-      "gov.type": "Entity type",
-      "gov.type.v": "Community Interest Company (CIC), limited by guarantee",
-      "gov.number": "Company number",
-      "gov.number.v": "[enter your company number here]",
-      "gov.office": "Registered office",
-      "gov.office.v": "[registered office address], London, United Kingdom",
-      "gov.regulator": "Regulators",
-      "gov.regulator.v": "Companies House and the Office of the Regulator of Community Interest Companies",
-      "gov.cis.t": "Community interest statement",
-      "gov.cis.p": "The company's assets and income are applied to its social purpose: supporting Iranians who had to leave Iran because of civic and human rights activity, and strengthening the Iranian community in the UK. Profits are not distributed to members, and an asset lock applies to the company's assets.",
-      "gov.policies.t": "Policies and documents",
-      "gov.p1": "Data protection and privacy policy (UK GDPR)",
-      "gov.p2": "Safeguarding policy",
-      "gov.p3": "Equality and diversity policy",
-      "gov.p4": "Volunteer and complaints policy",
-      "gov.p.note": "Full versions are being drafted and will be published on this page once the board has approved them.",
+      "work.title": "Our Work",
+      "work.subtitle": "Our work currently focuses on three simple areas.",
+      "work.a1.t": "Community & Participation",
+      "work.a1.p": "Connecting people, supporting social and cultural initiatives, and encouraging volunteering.",
+      "work.a2.t": "Support & Referral",
+      "work.a2.p": "Receiving initial support requests, reviewing relevant information within our organisational capacity, and referring people to appropriate specialist services when needed.",
+      "work.a3.t": "Partnerships & Networks",
+      "work.a3.p": "Building constructive relationships with professionals, organisations, academics, translators and community partners.",
 
       "sup.title": "Request Support",
-      "sup.subtitle": "A secure way to tell us what happened and what help you need.",
-      "sup.sec.t": "Read this before you start",
-      "sup.sec.1": "You do not have to use your real name. A chosen name is fine.",
-      "sup.sec.2": "Write only what is needed to get help. Details can come later, through a safer channel.",
-      "sup.sec.3": "If you are on a shared or family device, clear your browser history after sending.",
-      "sup.sec.4": "We will never ask for a password, bank details or any payment.",
-      "sup.sec.link": "Full safety guidance",
-      "sup.risk.t": "If you are in immediate danger",
-      "sup.risk.p": "This form is not an emergency service and may not be read for several days. If your life or someone else's is in immediate danger, contact the local emergency services or police where you are.",
-      "sup.s1": "About you",
-      "sup.s2": "Your situation now",
-      "sup.s3": "What help you need",
-      "sup.s4": "Documents and consent",
-      "sup.f.alias": "Name or chosen name",
-      "sup.f.alias.h": "Whatever you want us to call you. Your real name is not required.",
-      "sup.f.email": "Contact email",
-      "sup.f.email.h": "Ideally an address you created only for this, such as Proton Mail.",
-      "sup.f.channel": "Another way to reach you (optional)",
-      "sup.f.channel.h": "For example a Signal number. Leave blank if you prefer.",
-      "sup.f.lang": "Language you want a reply in",
-      "sup.f.country": "Country you are in now",
-      "sup.f.city": "City (optional)",
-      "sup.f.status": "Your current situation",
-      "sup.f.status.o0": "Select one",
-      "sup.f.status.o1": "Still in Iran",
-      "sup.f.status.o2": "In a third country, waiting",
-      "sup.f.status.o3": "I have claimed asylum",
-      "sup.f.status.o4": "My asylum claim was granted",
-      "sup.f.status.o5": "My claim was refused",
-      "sup.f.status.o6": "Something else",
-      "sup.f.needs": "What help do you need",
-      "sup.f.needs.h": "Choose as many as apply.",
-      "sup.f.n1": "Guidance on the asylum process",
-      "sup.f.n2": "Referral to an immigration lawyer",
-      "sup.f.n3": "Housing and basic needs",
-      "sup.f.n4": "Mental health and counselling",
-      "sup.f.n5": "Language, work and study",
-      "sup.f.n6": "Connection to the Iranian community",
-      "sup.f.n7": "Case documentation and writing",
-      "sup.f.story": "Briefly, what is your situation",
-      "sup.f.story.h": "A few sentences on what happened and what you most need now.",
-      "sup.f.files": "Upload documents (optional)",
-      "sup.f.files.h": "Only if needed. PDF, JPG, PNG or DOCX, up to 5 files, 10 MB each. Files are encrypted and stored outside the public web folder.",
-      "sup.f.drop": "Drop files here, or click to choose",
-      "sup.f.c1": "I confirm the information I have given is true as far as I know.",
-      "sup.f.c2": "I allow Iranian Civil Community to store and process this information solely to assess and respond to my request.",
-      "sup.f.c3": "I understand that my permission will be asked again, separately, before any referral to a lawyer or another organisation.",
-      "sup.submit": "Send securely",
-      "sup.next.t": "What happens next",
-      "sup.next.1": "You receive a reference code. Keep it somewhere safe.",
-      "sup.next.2": "Only two people on the support team can see your request.",
-      "sup.next.3": "We usually reply within 5 to 7 working days.",
-      "sup.next.4": "If we cannot help, we say so plainly and point you somewhere that can.",
-
-      "safe.title": "Safety & Privacy",
-      "safe.subtitle": "What we do with your information, and how to keep yourself safer.",
-      "safe.us.t": "What we do",
-      "safe.u1": "The site runs over HTTPS and every form is protected against cross-site request forgery.",
-      "safe.u2": "Uploaded files are renamed, encrypted, and stored outside the public web folder.",
-      "safe.u3": "Access to support cases is limited to named team members, and every view is logged.",
-      "safe.u4": "Nothing is shared with any organisation, journalist or government without your explicit permission.",
-      "safe.u5": "Cases are deleted after two years of inactivity, or sooner if you ask.",
-      "safe.u6": "We use no advertising or tracking tools on this site.",
-      "safe.you.t": "What you can do",
-      "safe.y1": "Use your own device rather than a work computer or internet cafe.",
-      "safe.y2": "Create a new email address that is not linked to your real name.",
-      "safe.y3": "If you are in Iran, do not use this form without a trusted VPN or the Tor Browser.",
-      "safe.y4": "Give real names, exact addresses and other people's details only when it is truly necessary.",
-      "safe.y5": "Clear your browser history and downloads after you send the form.",
-      "safe.rights.t": "Your rights over your data",
-      "safe.r.p": "Under UK GDPR you can ask for a copy of your data, correct it, ask us to delete it, or withdraw your consent. Write to privacy@iraniancivilcommunity.org with your reference code.",
-      "safe.never.t": "We will never ask for",
-      "safe.n1": "A password or two-factor code",
-      "safe.n2": "Bank or payment details",
-      "safe.n3": "Other people's names and contacts without their permission",
+      "sup.subtitle": "Submit an initial request for review and organisational support.",
+      "sup.p1": "If you have been forced to leave Iran because of your civil, social, media or political activities, or your opposition to the Islamic Republic, and you have sought protection or asylum in a democratic country, you may submit an initial request for support to Iranian Civil Community CIC.",
+      "sup.p2": "Our team will review the initial information. If necessary, we may contact you for further details or supporting documents. Where reliable information can be verified and the request falls within our organisational remit, we may provide organisational support, documentation or referral to appropriate specialist services.",
+      "sup.disclaimer.t": "Important",
+      "sup.disclaimer.p": "Iranian Civil Community CIC does not make asylum or immigration decisions, does not guarantee the outcome of any case, and this service is not a substitute for legal advice or representation by an appropriately regulated immigration adviser or lawyer.",
+      "sup.docs.t": "About documents",
+      "sup.docs.p": "Please do not upload any documents at this stage. If supporting documents are needed after the initial review, we will tell you separately how to send them securely. This keeps the amount of sensitive information held to a minimum.",
+      "sup.form.t": "Request form",
+      "sup.f.name": "Full name",
+      "sup.f.country": "Country of current residence",
+      "sup.f.email": "Email",
+      "sup.f.phone": "Phone number",
+      "sup.f.contact": "Preferred method of contact",
+      "sup.f.c0": "Select one",
+      "sup.f.c1": "Email",
+      "sup.f.c2": "Phone call",
+      "sup.f.c3": "Secure messenger (Signal)",
+      "sup.f.c4": "WhatsApp",
+      "sup.f.desc": "Briefly describe your situation and the support you are requesting",
+      "sup.f.desc.h": "A few sentences is enough. You do not need to give every detail at this stage.",
+      "sup.f.consent1": "I confirm the information given is true as far as I know, and I consent to it being stored and processed to review this request.",
+      "sup.f.consent2": "I have read and accept the Privacy Policy.",
+      "sup.f.privacy.link": "Read the Privacy Policy",
+      "sup.submit": "Submit request",
+      "sup.after.t": "After you submit",
+      "sup.after.p": "You will receive a reference number. Please keep it for future correspondence.",
 
       "vol.title": "Become a Volunteer",
-      "vol.subtitle": "Whatever your skill is, there is a place for it here.",
-      "vol.intro": "Volunteers hold this organisation up. Even a few hours a month makes a difference. After you register we will get in touch to talk about the right role for you.",
-      "vol.roles.t": "Roles we need right now",
-      "vol.r1": "Translation and language support (Persian, English, Arabic, Kurdish, Turkish)",
-      "vol.r2": "Accompanying people to appointments",
-      "vol.r3": "Teaching English and basic computer skills",
-      "vol.r4": "Running events and communications",
-      "vol.r5": "Website support and information security",
+      "vol.subtitle": "Register your details and skills.",
+      "vol.p1": "Civil society grows through participation. If you would like to contribute your time, experience or professional skills to support the Iranian community, we would be pleased to hear from you.",
+      "vol.p2": "After you submit the form, our team may contact you when a suitable volunteering opportunity is available.",
       "vol.f.name": "Full name",
-      "vol.f.email": "Email",
-      "vol.f.phone": "Phone (optional)",
       "vol.f.country": "Country",
       "vol.f.city": "City",
-      "vol.f.langs": "Languages you speak",
-      "vol.f.skills": "Skills and expertise",
-      "vol.f.skills.h": "For example: translation, law, psychology, teaching, design, software, media.",
-      "vol.f.avail": "Time you can give",
-      "vol.f.a0": "Select one",
-      "vol.f.a1": "Up to 2 hours a week",
-      "vol.f.a2": "2 to 5 hours a week",
-      "vol.f.a3": "More than 5 hours a week",
-      "vol.f.a4": "Events only",
-      "vol.f.about": "Why you want to volunteer",
-      "vol.f.consent": "I allow my details to be kept so volunteering can be organised.",
-      "vol.submit": "Register as a volunteer",
+      "vol.f.email": "Email",
+      "vol.f.phone": "Phone",
+      "vol.f.langs": "Languages",
+      "vol.f.skills": "Profession or skills",
+      "vol.f.interest": "Area of interest",
+      "vol.f.i0": "Select one",
+      "vol.f.i1": "Translation and language",
+      "vol.f.i2": "Social and cultural programmes",
+      "vol.f.i3": "Teaching and skills training",
+      "vol.f.i4": "Media and communications",
+      "vol.f.i5": "Technical and website support",
+      "vol.f.i6": "Administration and coordination",
+      "vol.f.note": "Short note",
+      "vol.f.consent": "I consent to my details being kept so volunteering can be organised, and I accept the Privacy Policy.",
+      "vol.submit": "Submit registration",
 
-      "work.title": "Work With Us",
-      "work.subtitle": "For organisations, professionals and teams who want to work alongside us.",
-      "work.intro": "We are looking to work with law firms, refugee organisations, universities, media, therapists and businesses who can open a door for someone.",
-      "work.w1.t": "Professional referrals",
-      "work.w1.p": "Immigration lawyers, advisers and therapists who can take referrals from us.",
-      "work.w2.t": "Joint programmes",
-      "work.w2.p": "Workshops, language classes, cultural events or shared research projects.",
-      "work.w3.t": "Institutional support",
-      "work.w3.p": "Funding, free space, pro bono professional services, jobs and placements.",
-      "work.f.org": "Organisation name",
-      "work.f.person": "Contact name",
-      "work.f.role": "Role",
-      "work.f.email": "Work email",
-      "work.f.website": "Website (optional)",
-      "work.f.country": "Country",
-      "work.f.type": "Type of collaboration",
-      "work.f.t0": "Select one",
-      "work.f.t1": "Professional referrals and services",
-      "work.f.t2": "Joint programme or project",
-      "work.f.t3": "Funding or institutional support",
-      "work.f.t4": "Jobs and placements",
-      "work.f.t5": "Something else",
-      "work.f.proposal": "Tell us about your proposal",
-      "work.f.consent": "I allow our contact details to be kept so this proposal can be followed up.",
-      "work.submit": "Send proposal",
+      "par.title": "Work With Us",
+      "par.subtitle": "For professionals, organisations and potential partners.",
+      "par.p1": "We welcome cooperation with professionals, civil society organisations, academics, appropriately regulated legal and immigration professionals, translators, educational institutions and other partners who can contribute to community and support services.",
+      "par.p2": "If you are interested in working with us, please send a brief introduction and the area in which you would like to collaborate.",
+      "par.f.org": "Name of person or organisation",
+      "par.f.person": "Contact name",
+      "par.f.email": "Email",
+      "par.f.phone": "Phone",
+      "par.f.country": "Country",
+      "par.f.website": "Website (optional)",
+      "par.f.area": "Proposed area of collaboration",
+      "par.f.intro": "Brief introduction and proposal",
+      "par.f.consent": "I consent to our contact details being kept so this proposal can be followed up, and I accept the Privacy Policy.",
+      "par.submit": "Send proposal",
 
-      "con.title": "Contact Us",
-      "con.subtitle": "A few ways to reach us.",
+      "con.title": "Contact & Privacy",
+      "con.subtitle": "How to reach us, and how we protect your information.",
+      "con.emails.t": "Contact",
+      "con.emails.note": "Official organisation email addresses will be activated once the official domain has been reviewed and finalised. For Phase One, a simple structure is recommended:",
       "con.general": "General enquiries",
-      "con.support": "Support requests",
-      "con.privacy": "Privacy and data",
-      "con.press": "Press and partnerships",
-      "con.addr.t": "Registered address",
-      "con.addr.v": "[registered office address], London, United Kingdom",
-      "con.hours.t": "When we reply",
-      "con.hours.v": "Monday to Friday, 10:00 to 17:00 UK time. Emails are usually answered within five working days.",
-      "con.note.t": "One reminder",
-      "con.note.p": "For support requests, please use the Request Support form rather than ordinary email. That channel is built to hold sensitive information.",
-      "con.note.link": "Go to the support form",
+      "con.support": "Support enquiries",
+      "con.country": "Country",
+      "con.later": "Volunteer and partnership addresses can be added later if needed.",
+      "con.privacy.t": "Privacy Policy",
+      "con.privacy.intro": "This is the Phase One privacy summary. It will be reviewed by a suitably qualified legal adviser before the official launch.",
+      "con.p1.t": "What we collect",
+      "con.p1.p": "Only what you enter in our forms: name, country, email, phone number, preferred contact method and the description you write. We do not store IP addresses, browser fingerprints or tracking data.",
+      "con.p2.t": "Why we collect it",
+      "con.p2.p": "Solely to review and respond to your request, to organise volunteering, or to follow up a partnership proposal. Your information is never sold or used for advertising.",
+      "con.p3.t": "How long we keep it",
+      "con.p3.p": "Support requests are kept for a maximum of 24 months after the last contact, then deleted. Volunteer and partner details are kept while the cooperation is active, or until you ask us to delete them.",
+      "con.p4.t": "How it is protected",
+      "con.p4.p": "Information is stored encrypted and outside the public web space. It is never kept in a public code repository or public file. Access is limited to authorised members of the organisation through a protected login, and every login and view is logged.",
+      "con.p5.t": "Sharing with others",
+      "con.p5.p": "Nothing is shared with any person, organisation, journalist or government body without your explicit permission. Referrals to specialist services are made only with your separate consent.",
+      "con.p6.t": "Your rights",
+      "con.p6.p": "You may request a copy of your data, correct it, ask for it to be deleted, or withdraw your consent. Write to our general address quoting your reference number.",
+      "con.never.t": "We will never ask for",
+      "con.n1": "A password or two-factor code",
+      "con.n2": "Bank details or any payment",
+      "con.n3": "Other people's information without their permission",
+      "con.tips.t": "A few tips for sending safely",
+      "con.t1": "Use your own device rather than a shared computer or internet cafe.",
+      "con.t2": "At this stage write only what is needed; further detail can follow through a secure channel.",
+      "con.t3": "Clear the browser history afterwards if the device is shared.",
 
-      "git.title": "Send a message",
-      "git.subtitle": "For general enquiries. Please do not send sensitive information here.",
-      "git.f.name": "Name",
-      "git.f.email": "Email",
-      "git.f.subject": "Subject",
-      "git.f.message": "Message",
-      "git.f.consent": "I agree to be contacted about this message.",
-      "git.submit": "Send message",
-
-      "form.required": "This field is required.",
-      "form.email.invalid": "That email address is not valid.",
+      "form.required": "Please complete the required fields.",
       "form.consent.needed": "Please confirm your agreement to continue.",
       "form.sending": "Sending...",
-      "form.ok.support": "Your request has been received. Your reference code is:",
-      "form.ok.generic": "Your message has been received. Thank you.",
+      "form.ok.support": "Your request has been received. Our team will review the information and contact you if further details are required. Please keep your reference number for future correspondence.",
+      "form.ok.ref": "Reference number:",
+      "form.ok.generic": "Your form has been received. Thank you.",
       "form.err.network": "Not sent. This preview is not connected to a server yet; the form will work once the backend is installed.",
-      "form.err.server": "Not sent. Please try again, or email us instead.",
-      "form.file.type": "This file type is not accepted:",
-      "form.file.size": "This file is larger than 10 MB:",
-      "form.file.count": "You can attach up to 5 files."
+      "form.err.server": "Not sent. Please try again."
     }
   };
 
@@ -1021,21 +757,17 @@ footer a:hover{color:#fff;text-decoration:underline}
   var pageTitles = {
     "home":         { t: "home.title", s: "home.subtitle", crumb: null },
     "about":        { t: "about.title", s: "about.subtitle", crumb: "nav.about" },
-    "what-we-do":   { t: "wwd.title", s: "wwd.subtitle", crumb: "nav.about" },
-    "governance":   { t: "gov.title", s: "gov.subtitle", crumb: "nav.about" },
+    "our-work":     { t: "work.title", s: "work.subtitle", crumb: "nav.work" },
     "support":      { t: "sup.title", s: "sup.subtitle", crumb: "nav.support" },
-    "safety":       { t: "safe.title", s: "safe.subtitle", crumb: "nav.support" },
-    "volunteer":    { t: "vol.title", s: "vol.subtitle", crumb: "nav.involved" },
-    "work-with-us": { t: "work.title", s: "work.subtitle", crumb: "nav.involved" },
-    "contact":      { t: "con.title", s: "con.subtitle", crumb: "nav.contact" },
-    "get-in-touch": { t: "git.title", s: "git.subtitle", crumb: "nav.contact" }
+    "volunteer":    { t: "vol.title", s: "vol.subtitle", crumb: "nav.volunteer" },
+    "work-with-us": { t: "par.title", s: "par.subtitle", crumb: "nav.partner" },
+    "contact":      { t: "con.title", s: "con.subtitle", crumb: "nav.contact" }
   };
 
-  /* small helpers for building markup */
+  /* markup helpers */
   function T(key) { return 'data-i18n="' + key + '"'; }
   function field(name, labelKey, opts) {
     opts = opts || {};
-    var req = opts.required ? ' <span class="req">*</span>' : "";
     var hint = opts.hint ? '<div class="hint" ' + T(opts.hint) + '></div>' : "";
     var input;
     if (opts.type === "textarea") {
@@ -1048,256 +780,165 @@ footer a:hover{color:#fff;text-decoration:underline}
     } else {
       input = '<input type="' + (opts.type || "text") + '" name="' + name + '" id="' + name + '"' + (opts.required ? " required" : "") + '>';
     }
-    return '<div class="field"><label for="' + name + '" ' + T(labelKey) + '></label>' + hint.replace("<div", "<div") + input + "</div>";
+    return '<div class="field"><label for="' + name + '" ' + T(labelKey) + '></label>' + hint + input + "</div>";
   }
   function checkbox(name, key, required) {
     return '<label class="check"><input type="checkbox" name="' + name + '" value="yes"' +
       (required ? " data-required-check" : "") + '><span ' + T(key) + '></span></label>';
   }
-  function step(n, titleKey, body) {
-    return '<section class="form-step"><div class="form-step-head"><span class="step-num">' + n +
-      '</span><h3 ' + T(titleKey) + '></h3></div>' + body + "</section>";
-  }
   function msgBox(id) { return '<div class="form-msg" id="' + id + '" role="status" aria-live="polite"></div>'; }
+  var HONEYPOT = '<input type="text" name="website_url" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;inset-inline-start:-9999px;width:1px;height:1px;opacity:0">';
 
   /* ============================ CONTENT ============================ */
   var contentTemplates = {
 
     "home":
       '<section class="hero"><div class="hero-inner">' +
-        '<div><h1 ' + T("home.hero.title") + '></h1><p ' + T("home.hero.text") + '></p>' +
-        '<div class="hero-actions">' +
-          '<a class="btn-solid" href="#support"><i class="fas fa-lock"></i><span ' + T("home.hero.cta1") + '></span></a>' +
-          '<a class="btn-line" href="#volunteer"><span ' + T("home.hero.cta2") + '></span></a>' +
-        '</div></div>' +
+        '<div>' +
+          '<h1 ' + T("home.title") + '></h1>' +
+          '<p class="hero-tagline" ' + T("home.subtitle") + '></p>' +
+          '<p ' + T("home.hero.p1") + '></p><p ' + T("home.hero.p2") + '></p>' +
+          '<div class="hero-actions">' +
+            '<a class="btn-solid" href="#support"><i class="fas fa-hand-holding-heart"></i><span ' + T("home.cta1") + '></span></a>' +
+            '<a class="btn-line" href="#volunteer"><span ' + T("home.cta2") + '></span></a>' +
+            '<a class="btn-line" href="#work-with-us"><span ' + T("home.cta3") + '></span></a>' +
+          '</div>' +
+        '</div>' +
         '<div class="hero-mark"><img src="assets/logoICCC.png" alt="Iranian Civil Community CIC"></div>' +
       '</div></section>' +
 
-      '<nav class="doors" aria-label="Main services">' +
+      '<nav class="doors doors-3" aria-label="Main actions">' +
         '<a class="door" href="#support" style="--door-c:#B3282D"><i class="door-icon fas fa-hand-holding-heart"></i><h3 ' + T("home.door1.t") + '></h3><p ' + T("home.door1.p") + '></p></a>' +
         '<a class="door" href="#volunteer" style="--door-c:#14603A"><i class="door-icon fas fa-people-group"></i><h3 ' + T("home.door2.t") + '></h3><p ' + T("home.door2.p") + '></p></a>' +
         '<a class="door" href="#work-with-us" style="--door-c:#12263F"><i class="door-icon fas fa-handshake"></i><h3 ' + T("home.door3.t") + '></h3><p ' + T("home.door3.p") + '></p></a>' +
-        '<a class="door" href="#about" style="--door-c:#57636E"><i class="door-icon fas fa-circle-info"></i><h3 ' + T("home.door4.t") + '></h3><p ' + T("home.door4.p") + '></p></a>' +
       '</nav>' +
 
       '<div class="grid-2" style="margin-top:1.1rem">' +
-        '<section class="block"><h2 ' + T("home.how.t") + '></h2><ul class="rule-list">' +
-          '<li><i class="fas fa-check"></i><span ' + T("home.how.1") + '></span></li>' +
-          '<li><i class="fas fa-check"></i><span ' + T("home.how.2") + '></span></li>' +
-          '<li><i class="fas fa-check"></i><span ' + T("home.how.3") + '></span></li>' +
-          '<li><i class="fas fa-check"></i><span ' + T("home.how.4") + '></span></li>' +
-        '</ul></section>' +
-        '<section class="block">' +
-          '<div class="fact"><b ' + T("home.stat1.b") + '></b><span ' + T("home.stat1.s") + '></span></div>' +
-          '<div class="fact"><b ' + T("home.stat2.b") + '></b><span ' + T("home.stat2.s") + '></span></div>' +
-          '<div class="fact" style="margin-bottom:1.4rem"><b ' + T("home.stat3.b") + '></b><span ' + T("home.stat3.s") + '></span></div>' +
-          '<div class="notice warn"><h3><i class="fas fa-triangle-exclamation"></i><span ' + T("home.note.t") + '></span></h3>' +
-          '<p ' + T("home.note.p") + '></p><a href="#safety" ' + T("home.note.link") + '></a></div>' +
-        '</section>' +
+        '<section class="block"><h2 ' + T("home.work.t") + '></h2><ul class="rule-list">' +
+          '<li><i class="fas fa-users"></i><span><b ' + T("work.a1.t") + '></b><br><span class="muted small" ' + T("work.a1.p") + '></span></span></li>' +
+          '<li><i class="fas fa-life-ring"></i><span><b ' + T("work.a2.t") + '></b><br><span class="muted small" ' + T("work.a2.p") + '></span></span></li>' +
+          '<li><i class="fas fa-handshake-angle"></i><span><b ' + T("work.a3.t") + '></b><br><span class="muted small" ' + T("work.a3.p") + '></span></span></li>' +
+        '</ul><a href="#our-work" class="small" ' + T("home.work.link") + '></a></section>' +
+        '<section class="block"><h2 ' + T("home.reg.t") + '></h2>' +
+          '<div class="fact"><b>Company No. 17308687</b><span ' + T("about.reg.type.v") + '></span></div>' +
+          '<p ' + T("home.reg.p") + '></p>' +
+          '<a href="#about" class="small" ' + T("home.reg.link") + '></a></section>' +
       '</div>',
 
     "about":
       '<div class="grid-2">' +
-        '<section class="block"><h2 ' + T("about.who.t") + '></h2><p class="lede" ' + T("about.who.p1") + '></p><p ' + T("about.who.p2") + '></p></section>' +
-        '<section class="block"><h2 ' + T("about.mission.t") + '></h2><p ' + T("about.mission.p") + '></p></section>' +
+        '<section class="block"><p class="lede" ' + T("about.p1") + '></p><p ' + T("about.p2") + '></p><p style="margin-bottom:0" ' + T("about.p3") + '></p></section>' +
+        '<section class="block"><h2 ' + T("about.reg.t") + '></h2><ul class="rule-list">' +
+          '<li><i class="fas fa-building-columns"></i><span><b ' + T("about.reg.name") + '></b><br>IRANIAN CIVIL COMMUNITY CIC</span></li>' +
+          '<li><i class="fas fa-scale-balanced"></i><span><b ' + T("about.reg.type") + '></b><br><span ' + T("about.reg.type.v") + '></span></span></li>' +
+          '<li><i class="fas fa-hashtag"></i><span><b ' + T("about.reg.no") + '></b><br>17308687</span></li>' +
+          '<li><i class="fas fa-location-dot"></i><span><b ' + T("about.reg.country") + '></b><br><span ' + T("about.reg.country.v") + '></span></span></li>' +
+        '</ul></section>' +
       '</div>' +
-      '<section class="block" style="margin-top:1.1rem"><h2 ' + T("about.values.t") + '></h2><ul class="rule-list">' +
-        '<li><i class="fas fa-circle-dot"></i><span ' + T("about.v1") + '></span></li>' +
-        '<li><i class="fas fa-circle-dot"></i><span ' + T("about.v2") + '></span></li>' +
-        '<li><i class="fas fa-circle-dot"></i><span ' + T("about.v3") + '></span></li>' +
-        '<li><i class="fas fa-circle-dot"></i><span ' + T("about.v4") + '></span></li>' +
-        '<li><i class="fas fa-circle-dot"></i><span ' + T("about.v5") + '></span></li>' +
-      '</ul></section>',
+      '<section class="block" style="margin-top:1.1rem"><h2 ' + T("about.values.t") + '></h2><div class="pill-row">' +
+        '<span class="pill" ' + T("about.v1") + '></span><span class="pill" ' + T("about.v2") + '></span>' +
+        '<span class="pill" ' + T("about.v3") + '></span><span class="pill" ' + T("about.v4") + '></span>' +
+        '<span class="pill" ' + T("about.v5") + '></span>' +
+      '</div></section>',
 
-    "what-we-do":
-      '<div class="grid-2">' +
-        '<section class="block"><h2 ' + T("wwd.a1.t") + '></h2><p ' + T("wwd.a1.p") + '></p></section>' +
-        '<section class="block"><h2 ' + T("wwd.a2.t") + '></h2><p ' + T("wwd.a2.p") + '></p></section>' +
-        '<section class="block"><h2 ' + T("wwd.a3.t") + '></h2><p ' + T("wwd.a3.p") + '></p></section>' +
-        '<section class="block"><h2 ' + T("wwd.a4.t") + '></h2><p ' + T("wwd.a4.p") + '></p></section>' +
+    "our-work":
+      '<div class="grid-3">' +
+        '<section class="block"><i class="door-icon fas fa-users" style="--door-c:#14603A;color:#14603A"></i><h2 ' + T("work.a1.t") + '></h2><p ' + T("work.a1.p") + '></p></section>' +
+        '<section class="block"><i class="door-icon fas fa-life-ring" style="color:#B3282D"></i><h2 ' + T("work.a2.t") + '></h2><p ' + T("work.a2.p") + '></p></section>' +
+        '<section class="block"><i class="door-icon fas fa-handshake-angle" style="color:#12263F"></i><h2 ' + T("work.a3.t") + '></h2><p ' + T("work.a3.p") + '></p></section>' +
       '</div>' +
-      '<section class="block" style="margin-top:1.1rem"><h2 ' + T("wwd.limits.t") + '></h2><ul class="rule-list">' +
-        '<li><i class="fas fa-xmark" style="color:#B3282D"></i><span ' + T("wwd.l1") + '></span></li>' +
-        '<li><i class="fas fa-xmark" style="color:#B3282D"></i><span ' + T("wwd.l2") + '></span></li>' +
-        '<li><i class="fas fa-xmark" style="color:#B3282D"></i><span ' + T("wwd.l3") + '></span></li>' +
-        '<li><i class="fas fa-xmark" style="color:#B3282D"></i><span ' + T("wwd.l4") + '></span></li>' +
-      '</ul></section>',
-
-    "governance":
-      '<section class="block"><h2 ' + T("gov.reg.t") + '></h2><ul class="rule-list">' +
-        '<li><i class="fas fa-building-columns"></i><span><b ' + T("gov.name") + '></b><br>Iranian Civil Community CIC</span></li>' +
-        '<li><i class="fas fa-scale-balanced"></i><span><b ' + T("gov.type") + '></b><br><span ' + T("gov.type.v") + '></span></span></li>' +
-        '<li><i class="fas fa-hashtag"></i><span><b ' + T("gov.number") + '></b><br><span ' + T("gov.number.v") + '></span></span></li>' +
-        '<li><i class="fas fa-location-dot"></i><span><b ' + T("gov.office") + '></b><br><span ' + T("gov.office.v") + '></span></span></li>' +
-        '<li><i class="fas fa-clipboard-check"></i><span><b ' + T("gov.regulator") + '></b><br><span ' + T("gov.regulator.v") + '></span></span></li>' +
-      '</ul></section>' +
       '<div class="grid-2" style="margin-top:1.1rem">' +
-        '<section class="block"><h2 ' + T("gov.cis.t") + '></h2><p ' + T("gov.cis.p") + '></p></section>' +
-        '<section class="block"><h2 ' + T("gov.policies.t") + '></h2><ul class="rule-list">' +
-          '<li><i class="fas fa-file-shield"></i><span ' + T("gov.p1") + '></span></li>' +
-          '<li><i class="fas fa-file-shield"></i><span ' + T("gov.p2") + '></span></li>' +
-          '<li><i class="fas fa-file-shield"></i><span ' + T("gov.p3") + '></span></li>' +
-          '<li><i class="fas fa-file-shield"></i><span ' + T("gov.p4") + '></span></li>' +
-        '</ul><p class="small muted" style="margin-top:.9rem" ' + T("gov.p.note") + '></p></section>' +
+        '<a class="block block-link" href="#support"><h3 ' + T("home.door1.t") + '></h3><p class="muted small" ' + T("home.door1.p") + '></p></a>' +
+        '<a class="block block-link" href="#volunteer"><h3 ' + T("home.door2.t") + '></h3><p class="muted small" ' + T("home.door2.p") + '></p></a>' +
       '</div>',
 
     "support":
-      '<div class="grid-2" style="margin-bottom:1.4rem">' +
-        '<div class="notice"><h3><i class="fas fa-shield-halved"></i><span ' + T("sup.sec.t") + '></span></h3>' +
-          '<ul class="rule-list small">' +
-          '<li><i class="fas fa-angle-right"></i><span ' + T("sup.sec.1") + '></span></li>' +
-          '<li><i class="fas fa-angle-right"></i><span ' + T("sup.sec.2") + '></span></li>' +
-          '<li><i class="fas fa-angle-right"></i><span ' + T("sup.sec.3") + '></span></li>' +
-          '<li><i class="fas fa-angle-right"></i><span ' + T("sup.sec.4") + '></span></li>' +
-          '</ul><a href="#safety" class="small" ' + T("sup.sec.link") + '></a></div>' +
-        '<div class="notice warn"><h3><i class="fas fa-triangle-exclamation"></i><span ' + T("sup.risk.t") + '></span></h3><p ' + T("sup.risk.p") + '></p></div>' +
+      '<section class="block"><p class="lede" ' + T("sup.p1") + '></p><p style="margin-bottom:0" ' + T("sup.p2") + '></p></section>' +
+      '<div class="grid-2" style="margin:1.1rem 0">' +
+        '<div class="notice warn"><h3><i class="fas fa-triangle-exclamation"></i><span ' + T("sup.disclaimer.t") + '></span></h3><p style="margin-bottom:0" ' + T("sup.disclaimer.p") + '></p></div>' +
+        '<div class="notice"><h3><i class="fas fa-file-shield"></i><span ' + T("sup.docs.t") + '></span></h3><p style="margin-bottom:0" ' + T("sup.docs.p") + '></p></div>' +
       '</div>' +
 
-      '<form id="supportForm" novalidate>' + '<input type="text" name="website_url" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;inset-inline-start:-9999px;width:1px;height:1px;opacity:0">' + msgBox("supportMsg") +
-        step(1, "sup.s1",
-          '<div class="grid-2">' +
-            field("alias", "sup.f.alias", { required: true, hint: "sup.f.alias.h" }) +
-            field("email", "sup.f.email", { type: "email", hint: "sup.f.email.h" }) +
-          '</div><div class="grid-2">' +
-            field("channel", "sup.f.channel", { hint: "sup.f.channel.h" }) +
-            field("reply_lang", "sup.f.lang", { type: "select", options: ["sup.f.status.o0", "ui.lang.fa", "ui.lang.en"] }) +
-          '</div>') +
-        step(2, "sup.s2",
-          '<div class="grid-2">' +
-            field("country", "sup.f.country", { required: true }) +
-            field("city", "sup.f.city", {}) +
-          '</div>' +
-          field("status", "sup.f.status", { type: "select", required: true,
-            options: ["sup.f.status.o0", "sup.f.status.o1", "sup.f.status.o2", "sup.f.status.o3", "sup.f.status.o4", "sup.f.status.o5", "sup.f.status.o6"] })) +
-        step(3, "sup.s3",
-          '<div class="field"><label ' + T("sup.f.needs") + '></label><div class="hint" ' + T("sup.f.needs.h") + '></div>' +
-            '<div class="grid-2">' +
-            checkbox("needs[]", "sup.f.n1") + checkbox("needs[]", "sup.f.n2") +
-            checkbox("needs[]", "sup.f.n3") + checkbox("needs[]", "sup.f.n4") +
-            checkbox("needs[]", "sup.f.n5") + checkbox("needs[]", "sup.f.n6") +
-            checkbox("needs[]", "sup.f.n7") +
-            '</div></div>' +
-          field("story", "sup.f.story", { type: "textarea", required: true, hint: "sup.f.story.h" })) +
-        step(4, "sup.s4",
-          '<div class="field"><label ' + T("sup.f.files") + '></label><div class="hint" ' + T("sup.f.files.h") + '></div>' +
-            '<div class="dropzone" id="dropzone" tabindex="0" role="button"><i class="fas fa-file-arrow-up"></i><span ' + T("sup.f.drop") + '></span></div>' +
-            '<input type="file" id="fileInput" multiple accept=".pdf,.jpg,.jpeg,.png,.docx" hidden>' +
-            '<ul class="file-list" id="fileList"></ul></div>' +
-          checkbox("consent_true", "sup.f.c1", true) +
-          checkbox("consent_store", "sup.f.c2", true) +
-          checkbox("consent_referral", "sup.f.c3", true) +
-          '<button type="submit" class="btn-solid" style="margin-top:.9rem"><i class="fas fa-lock"></i><span ' + T("sup.submit") + '></span></button>') +
+      '<form id="supportForm" class="form-step" novalidate>' + HONEYPOT + msgBox("supportMsg") +
+        '<h2 ' + T("sup.form.t") + '></h2>' +
+        '<div class="grid-2">' + field("name", "sup.f.name", { required: true }) + field("country", "sup.f.country", { required: true }) + '</div>' +
+        '<div class="grid-2">' + field("email", "sup.f.email", { type: "email", required: true }) + field("phone", "sup.f.phone", { type: "tel" }) + '</div>' +
+        field("contact_method", "sup.f.contact", { type: "select", required: true, options: ["sup.f.c0", "sup.f.c1", "sup.f.c2", "sup.f.c3", "sup.f.c4"] }) +
+        field("description", "sup.f.desc", { type: "textarea", required: true, hint: "sup.f.desc.h" }) +
+        checkbox("consent_store", "sup.f.consent1", true) +
+        checkbox("consent_privacy", "sup.f.consent2", true) +
+        '<p class="small" style="margin:.2rem 0 1rem"><a href="#contact" ' + T("sup.f.privacy.link") + '></a></p>' +
+        '<button type="submit" class="btn-solid"><i class="fas fa-paper-plane"></i><span ' + T("sup.submit") + '></span></button>' +
       '</form>' +
 
-      '<section class="block" style="margin-top:.4rem"><h2 ' + T("sup.next.t") + '></h2><ul class="rule-list">' +
-        '<li><i class="fas fa-1"></i><span ' + T("sup.next.1") + '></span></li>' +
-        '<li><i class="fas fa-2"></i><span ' + T("sup.next.2") + '></span></li>' +
-        '<li><i class="fas fa-3"></i><span ' + T("sup.next.3") + '></span></li>' +
-        '<li><i class="fas fa-4"></i><span ' + T("sup.next.4") + '></span></li>' +
-      '</ul></section>',
-
-    "safety":
-      '<div class="grid-2">' +
-        '<section class="block"><h2 ' + T("safe.us.t") + '></h2><ul class="rule-list">' +
-          '<li><i class="fas fa-lock"></i><span ' + T("safe.u1") + '></span></li>' +
-          '<li><i class="fas fa-file-shield"></i><span ' + T("safe.u2") + '></span></li>' +
-          '<li><i class="fas fa-user-shield"></i><span ' + T("safe.u3") + '></span></li>' +
-          '<li><i class="fas fa-key"></i><span ' + T("safe.u4") + '></span></li>' +
-          '<li><i class="fas fa-trash-can"></i><span ' + T("safe.u5") + '></span></li>' +
-          '<li><i class="fas fa-eye-slash"></i><span ' + T("safe.u6") + '></span></li>' +
-        '</ul></section>' +
-        '<section class="block"><h2 ' + T("safe.you.t") + '></h2><ul class="rule-list">' +
-          '<li><i class="fas fa-laptop"></i><span ' + T("safe.y1") + '></span></li>' +
-          '<li><i class="fas fa-envelope"></i><span ' + T("safe.y2") + '></span></li>' +
-          '<li><i class="fas fa-shield"></i><span ' + T("safe.y3") + '></span></li>' +
-          '<li><i class="fas fa-user-secret"></i><span ' + T("safe.y4") + '></span></li>' +
-          '<li><i class="fas fa-broom"></i><span ' + T("safe.y5") + '></span></li>' +
-        '</ul></section>' +
-      '</div>' +
-      '<div class="grid-2" style="margin-top:1.1rem">' +
-        '<section class="block"><h2 ' + T("safe.rights.t") + '></h2><p ' + T("safe.r.p") + '></p></section>' +
-        '<div class="notice warn"><h3><i class="fas fa-ban"></i><span ' + T("safe.never.t") + '></span></h3><ul class="rule-list small">' +
-          '<li><i class="fas fa-xmark" style="color:#B3282D"></i><span ' + T("safe.n1") + '></span></li>' +
-          '<li><i class="fas fa-xmark" style="color:#B3282D"></i><span ' + T("safe.n2") + '></span></li>' +
-          '<li><i class="fas fa-xmark" style="color:#B3282D"></i><span ' + T("safe.n3") + '></span></li>' +
-        '</ul></div>' +
-      '</div>',
+      '<div class="notice" style="margin-top:1.1rem"><h3><i class="fas fa-hashtag"></i><span ' + T("sup.after.t") + '></span></h3><p style="margin-bottom:0" ' + T("sup.after.p") + '></p></div>',
 
     "volunteer":
-      '<div class="grid-2" style="margin-bottom:1.2rem">' +
-        '<section class="block"><p class="lede" ' + T("vol.intro") + '></p></section>' +
-        '<section class="block"><h2 ' + T("vol.roles.t") + '></h2><ul class="rule-list small">' +
-          '<li><i class="fas fa-language"></i><span ' + T("vol.r1") + '></span></li>' +
-          '<li><i class="fas fa-user-group"></i><span ' + T("vol.r2") + '></span></li>' +
-          '<li><i class="fas fa-chalkboard-user"></i><span ' + T("vol.r3") + '></span></li>' +
-          '<li><i class="fas fa-bullhorn"></i><span ' + T("vol.r4") + '></span></li>' +
-          '<li><i class="fas fa-code"></i><span ' + T("vol.r5") + '></span></li>' +
-        '</ul></section>' +
-      '</div>' +
-      '<form id="volunteerForm" class="form-step" novalidate>' + '<input type="text" name="website_url" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;inset-inline-start:-9999px;width:1px;height:1px;opacity:0">' + msgBox("volunteerMsg") +
+      '<section class="block"><p class="lede" ' + T("vol.p1") + '></p><p style="margin-bottom:0" ' + T("vol.p2") + '></p></section>' +
+      '<form id="volunteerForm" class="form-step" style="margin-top:1.1rem" novalidate>' + HONEYPOT + msgBox("volunteerMsg") +
         '<div class="grid-2">' + field("name", "vol.f.name", { required: true }) + field("email", "vol.f.email", { type: "email", required: true }) + '</div>' +
-        '<div class="grid-3">' + field("phone", "vol.f.phone", { type: "tel" }) + field("country", "vol.f.country", { required: true }) + field("city", "vol.f.city", {}) + '</div>' +
-        '<div class="grid-2">' + field("languages", "vol.f.langs", {}) +
-          field("availability", "vol.f.avail", { type: "select", options: ["vol.f.a0", "vol.f.a1", "vol.f.a2", "vol.f.a3", "vol.f.a4"] }) + '</div>' +
-        field("skills", "vol.f.skills", { required: true, hint: "vol.f.skills.h" }) +
-        field("about", "vol.f.about", { type: "textarea" }) +
+        '<div class="grid-3">' + field("country", "vol.f.country", { required: true }) + field("city", "vol.f.city", {}) + field("phone", "vol.f.phone", { type: "tel" }) + '</div>' +
+        '<div class="grid-2">' + field("languages", "vol.f.langs", {}) + field("skills", "vol.f.skills", { required: true }) + '</div>' +
+        field("interest", "vol.f.interest", { type: "select", options: ["vol.f.i0", "vol.f.i1", "vol.f.i2", "vol.f.i3", "vol.f.i4", "vol.f.i5", "vol.f.i6"] }) +
+        field("note", "vol.f.note", { type: "textarea" }) +
         checkbox("consent_store", "vol.f.consent", true) +
         '<button type="submit" class="btn-ink" style="margin-top:.7rem"><i class="fas fa-paper-plane"></i><span ' + T("vol.submit") + '></span></button>' +
       '</form>',
 
     "work-with-us":
-      '<section class="block"><p class="lede" ' + T("work.intro") + '></p></section>' +
-      '<div class="grid-3" style="margin:1.1rem 0">' +
-        '<section class="block"><h3 ' + T("work.w1.t") + '></h3><p class="small muted" ' + T("work.w1.p") + '></p></section>' +
-        '<section class="block"><h3 ' + T("work.w2.t") + '></h3><p class="small muted" ' + T("work.w2.p") + '></p></section>' +
-        '<section class="block"><h3 ' + T("work.w3.t") + '></h3><p class="small muted" ' + T("work.w3.p") + '></p></section>' +
-      '</div>' +
-      '<form id="partnerForm" class="form-step" novalidate>' + '<input type="text" name="website_url" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;inset-inline-start:-9999px;width:1px;height:1px;opacity:0">' + msgBox("partnerMsg") +
-        '<div class="grid-2">' + field("organisation", "work.f.org", { required: true }) + field("person", "work.f.person", { required: true }) + '</div>' +
-        '<div class="grid-3">' + field("role", "work.f.role", {}) + field("email", "work.f.email", { type: "email", required: true }) + field("country", "work.f.country", {}) + '</div>' +
-        '<div class="grid-2">' + field("website", "work.f.website", {}) +
-          field("type", "work.f.type", { type: "select", required: true, options: ["work.f.t0", "work.f.t1", "work.f.t2", "work.f.t3", "work.f.t4", "work.f.t5"] }) + '</div>' +
-        field("proposal", "work.f.proposal", { type: "textarea", required: true }) +
-        checkbox("consent_store", "work.f.consent", true) +
-        '<button type="submit" class="btn-ink" style="margin-top:.7rem"><i class="fas fa-paper-plane"></i><span ' + T("work.submit") + '></span></button>' +
+      '<section class="block"><p class="lede" ' + T("par.p1") + '></p><p style="margin-bottom:0" ' + T("par.p2") + '></p></section>' +
+      '<form id="partnerForm" class="form-step" style="margin-top:1.1rem" novalidate>' + HONEYPOT + msgBox("partnerMsg") +
+        '<div class="grid-2">' + field("organisation", "par.f.org", { required: true }) + field("person", "par.f.person", {}) + '</div>' +
+        '<div class="grid-3">' + field("email", "par.f.email", { type: "email", required: true }) + field("phone", "par.f.phone", { type: "tel" }) + field("country", "par.f.country", {}) + '</div>' +
+        '<div class="grid-2">' + field("website", "par.f.website", {}) + field("area", "par.f.area", { required: true }) + '</div>' +
+        field("proposal", "par.f.intro", { type: "textarea", required: true }) +
+        checkbox("consent_store", "par.f.consent", true) +
+        '<button type="submit" class="btn-ink" style="margin-top:.7rem"><i class="fas fa-paper-plane"></i><span ' + T("par.submit") + '></span></button>' +
       '</form>',
 
     "contact":
       '<div class="grid-2">' +
-        '<section class="block">' +
-          '<div class="contact-row"><i class="fas fa-envelope"></i><span><b ' + T("con.general") + '></b><a href="mailto:info@iraniancivilcommunity.org">info@iraniancivilcommunity.org</a></span></div>' +
-          '<div class="contact-row"><i class="fas fa-shield-halved"></i><span><b ' + T("con.support") + '></b><a href="mailto:support@iraniancivilcommunity.org">support@iraniancivilcommunity.org</a></span></div>' +
-          '<div class="contact-row"><i class="fas fa-user-lock"></i><span><b ' + T("con.privacy") + '></b><a href="mailto:privacy@iraniancivilcommunity.org">privacy@iraniancivilcommunity.org</a></span></div>' +
-          '<div class="contact-row"><i class="fas fa-handshake"></i><span><b ' + T("con.press") + '></b><a href="mailto:partners@iraniancivilcommunity.org">partners@iraniancivilcommunity.org</a></span></div>' +
+        '<section class="block"><h2 ' + T("con.emails.t") + '></h2>' +
+          '<p class="small muted" ' + T("con.emails.note") + '></p>' +
+          '<div class="contact-row"><i class="fas fa-envelope"></i><span><b ' + T("con.general") + '></b><span>info@[official-domain]</span></span></div>' +
+          '<div class="contact-row"><i class="fas fa-life-ring"></i><span><b ' + T("con.support") + '></b><span>support@[official-domain]</span></span></div>' +
+          '<div class="contact-row"><i class="fas fa-location-dot"></i><span><b ' + T("con.country") + '></b><span ' + T("footer.uk") + '></span></span></div>' +
+          '<p class="small muted" style="margin:.9rem 0 0" ' + T("con.later") + '></p>' +
         '</section>' +
         '<section class="block">' +
-          '<div class="contact-row"><i class="fas fa-location-dot"></i><span><b ' + T("con.addr.t") + '></b><span ' + T("con.addr.v") + '></span></span></div>' +
-          '<div class="contact-row"><i class="fas fa-clock"></i><span><b ' + T("con.hours.t") + '></b><span ' + T("con.hours.v") + '></span></span></div>' +
-          '<div class="notice warn" style="margin-top:1.1rem"><h3><i class="fas fa-circle-info"></i><span ' + T("con.note.t") + '></span></h3><p ' + T("con.note.p") + '></p><a href="#support" ' + T("con.note.link") + '></a></div>' +
+          '<div class="notice warn"><h3><i class="fas fa-ban"></i><span ' + T("con.never.t") + '></span></h3><ul class="rule-list small">' +
+            '<li><i class="fas fa-xmark" style="color:#B3282D"></i><span ' + T("con.n1") + '></span></li>' +
+            '<li><i class="fas fa-xmark" style="color:#B3282D"></i><span ' + T("con.n2") + '></span></li>' +
+            '<li><i class="fas fa-xmark" style="color:#B3282D"></i><span ' + T("con.n3") + '></span></li>' +
+          '</ul></div>' +
+          '<h3 style="margin-top:1.2rem" ' + T("con.tips.t") + '></h3><ul class="rule-list small">' +
+            '<li><i class="fas fa-laptop"></i><span ' + T("con.t1") + '></span></li>' +
+            '<li><i class="fas fa-pen"></i><span ' + T("con.t2") + '></span></li>' +
+            '<li><i class="fas fa-broom"></i><span ' + T("con.t3") + '></span></li>' +
+          '</ul>' +
         '</section>' +
-      '</div>',
+      '</div>' +
 
-    "get-in-touch":
-      '<form id="contactForm" class="form-step" novalidate>' + '<input type="text" name="website_url" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;inset-inline-start:-9999px;width:1px;height:1px;opacity:0">' + msgBox("contactMsg") +
-        '<div class="grid-2">' + field("name", "git.f.name", { required: true }) + field("email", "git.f.email", { type: "email", required: true }) + '</div>' +
-        field("subject", "git.f.subject", { required: true }) +
-        field("message", "git.f.message", { type: "textarea", required: true }) +
-        checkbox("consent_store", "git.f.consent", true) +
-        '<button type="submit" class="btn-ink" style="margin-top:.7rem"><i class="fas fa-paper-plane"></i><span ' + T("git.submit") + '></span></button>' +
-      '</form>'
+      '<section class="block" style="margin-top:1.1rem" id="privacy"><h2 ' + T("con.privacy.t") + '></h2>' +
+        '<p class="small muted" ' + T("con.privacy.intro") + '></p>' +
+        '<div class="grid-2" style="margin-top:.6rem">' +
+          '<div class="policy"><h3 ' + T("con.p1.t") + '></h3><p ' + T("con.p1.p") + '></p></div>' +
+          '<div class="policy"><h3 ' + T("con.p2.t") + '></h3><p ' + T("con.p2.p") + '></p></div>' +
+          '<div class="policy"><h3 ' + T("con.p3.t") + '></h3><p ' + T("con.p3.p") + '></p></div>' +
+          '<div class="policy"><h3 ' + T("con.p4.t") + '></h3><p ' + T("con.p4.p") + '></p></div>' +
+          '<div class="policy"><h3 ' + T("con.p5.t") + '></h3><p ' + T("con.p5.p") + '></p></div>' +
+          '<div class="policy"><h3 ' + T("con.p6.t") + '></h3><p ' + T("con.p6.p") + '></p></div>' +
+        '</div>' +
+      '</section>'
   };
 
   /* ============================ STATE ============================ */
   var lang = (localStorage.getItem("iccc_lang") || "fa");
   var csrfToken = "";
-  var selectedFiles = [];
-  var MAX_FILES = 5, MAX_SIZE = 10 * 1024 * 1024;
-  var ALLOWED = ["pdf", "jpg", "jpeg", "png", "docx"];
-
   var titleArea = document.getElementById("page-title-area");
   var contentArea = document.getElementById("content-area");
 
-  function t(key) { return (I18N[lang] && I18N[lang][key]) || (I18N.fa[key]) || key; }
+  function t(key) { return (I18N[lang] && I18N[lang][key]) || I18N.fa[key] || key; }
 
   /* ============================ I18N ============================ */
   function applyI18n(root) {
@@ -1331,13 +972,17 @@ footer a:hover{color:#fff;text-decoration:underline}
 
   function renderTitle(section) {
     var meta = pageTitles[section] || pageTitles.home;
-    var crumb = "";
-    if (meta.crumb) {
-      crumb = '<div class="breadcrumb-line"><a href="#home">' + t("ui.home") + "</a> / " + t(meta.crumb) + "</div>";
-    }
-    titleArea.innerHTML = '<div class="inner">' + crumb +
-      "<h1>" + t(meta.t) + "</h1><p>" + t(meta.s) + "</p></div>";
     document.title = t(meta.t) + " — Iranian Civil Community CIC";
+    if (section === "home") {           /* the hero carries the heading */
+      titleArea.innerHTML = "";
+      titleArea.style.display = "none";
+      return;
+    }
+    titleArea.style.display = "";
+    var crumb = meta.crumb
+      ? '<div class="breadcrumb-line"><a href="#home">' + t("ui.home") + "</a> / " + t(meta.crumb) + "</div>"
+      : "";
+    titleArea.innerHTML = '<div class="inner">' + crumb + "<h1>" + t(meta.t) + "</h1><p>" + t(meta.s) + "</p></div>";
   }
 
   function render(section, push) {
@@ -1356,13 +1001,9 @@ footer a:hover{color:#fff;text-decoration:underline}
   }
 
   function updateActiveNavLink(section) {
-    document.querySelectorAll(".nav-link, .dropdown-item").forEach(function (l) { l.classList.remove("active"); });
+    document.querySelectorAll(".nav-link").forEach(function (l) { l.classList.remove("active"); });
     var link = document.getElementById(section + "-link");
-    if (link) {
-      link.classList.add("active");
-      var menu = link.closest(".dropdown-menu");
-      if (menu && menu.previousElementSibling) menu.previousElementSibling.classList.add("active");
-    }
+    if (link) link.classList.add("active");
   }
 
   function closeMobileNav() {
@@ -1380,36 +1021,7 @@ footer a:hover{color:#fff;text-decoration:underline}
   window.addEventListener("hashchange", function () { render(sectionFromHash(), false); });
   window.addEventListener("popstate", function () { render(sectionFromHash(), false); });
 
-  /* ============================ SEARCH ============================ */
-  var PAGE_OF = { home: "home", about: "about", wwd: "what-we-do", gov: "governance", sup: "support",
-                  safe: "safety", vol: "volunteer", work: "work-with-us", con: "contact", git: "get-in-touch" };
-
-  function runSearch(term) {
-    term = (term || "").trim().toLowerCase();
-    var box = document.getElementById("searchResultsContainer");
-    var modal = document.getElementById("searchModal");
-    if (term.length < 2) return;
-    var dict = I18N[lang], hits = {};
-    Object.keys(dict).forEach(function (key) {
-      var page = PAGE_OF[key.split(".")[0]];
-      if (!page) return;
-      var value = String(dict[key]);
-      if (value.toLowerCase().indexOf(term) === -1) return;
-      if (!hits[page]) hits[page] = [];
-      if (hits[page].length < 2) hits[page].push(value);
-    });
-    var pages = Object.keys(hits);
-    box.innerHTML = pages.length
-      ? pages.map(function (p) {
-          var meta = pageTitles[p];
-          return '<a class="search-result" href="#' + p + '" data-close-search><b>' + t(meta.t) + "</b><span>" +
-            hits[p].join(" … ").slice(0, 190) + "</span></a>";
-        }).join("")
-      : '<p class="muted">' + t("search.none") + "</p>";
-    modal.classList.add("open");
-  }
-
-  /* ============================ FORM PLUMBING ============================ */
+  /* ============================ FORMS ============================ */
   function fetchCsrf() {
     fetch(API_BASE + "csrf.php", { credentials: "same-origin" })
       .then(function (r) { return r.ok ? r.json() : null; })
@@ -1417,16 +1029,16 @@ footer a:hover{color:#fff;text-decoration:underline}
       .catch(function () { /* backend not installed yet */ });
   }
 
-  function showMsg(id, kind, text) {
+  function showMsg(id, kind, html) {
     var box = document.getElementById(id);
     if (!box) return;
     box.className = "form-msg " + kind;
-    box.innerHTML = text;
+    box.innerHTML = html;
     box.scrollIntoView({ block: "center", behavior: "smooth" });
   }
 
   function validate(form) {
-    var ok = true, firstBad = null;
+    var ok = true, firstBad = null, consentMissing = false;
     form.querySelectorAll("[required]").forEach(function (el) {
       var bad = !String(el.value || "").trim();
       if (!bad && el.type === "email") bad = !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(el.value.trim());
@@ -1437,16 +1049,16 @@ footer a:hover{color:#fff;text-decoration:underline}
     form.querySelectorAll("[data-required-check]").forEach(function (el) {
       var bad = !el.checked;
       el.parentElement.style.color = bad ? "#B3282D" : "";
-      if (bad && !firstBad) firstBad = el;
-      if (bad) ok = false;
+      if (bad) { ok = false; consentMissing = true; if (!firstBad) firstBad = el; }
     });
     if (firstBad) firstBad.focus();
-    return ok;
+    return { ok: ok, consentMissing: consentMissing };
   }
 
   function submitForm(form, endpoint, msgId, isSupport) {
-    if (!validate(form)) {
-      showMsg(msgId, "err", t(isSupport ? "form.consent.needed" : "form.required"));
+    var check = validate(form);
+    if (!check.ok) {
+      showMsg(msgId, "err", t(check.consentMissing ? "form.consent.needed" : "form.required"));
       return;
     }
     var btn = form.querySelector('button[type="submit"]');
@@ -1456,20 +1068,18 @@ footer a:hover{color:#fff;text-decoration:underline}
     var data = new FormData(form);
     data.append("_csrf", csrfToken);
     data.append("_lang", lang);
-    if (isSupport) selectedFiles.forEach(function (f) { data.append("documents[]", f, f.name); });
 
     fetch(API_BASE + endpoint, { method: "POST", body: data, credentials: "same-origin" })
       .then(function (r) { return r.json().then(function (j) { return { ok: r.ok, body: j }; }); })
       .then(function (res) {
         if (res.ok && res.body && res.body.ok) {
-          var text = isSupport
-            ? t("form.ok.support") + ' <span class="ref-code">' + (res.body.reference || "") + "</span>"
-            : t("form.ok.generic");
-          showMsg(msgId, "ok", text);
+          var html = isSupport
+            ? t("form.ok.support") + '<div style="margin-top:.6rem">' + t("form.ok.ref") +
+              ' <span class="ref-code">' + (res.body.reference || "") + "</span></div>"
+            : t("form.ok.generic") + '<div style="margin-top:.6rem">' + t("form.ok.ref") +
+              ' <span class="ref-code">' + (res.body.reference || "") + "</span></div>";
+          showMsg(msgId, "ok", html);
           form.reset();
-          selectedFiles = [];
-          renderFileList();
-          if (res.body.token) csrfToken = res.body.token;
         } else {
           showMsg(msgId, "err", (res.body && res.body.error) || t("form.err.server"));
         }
@@ -1478,65 +1088,20 @@ footer a:hover{color:#fff;text-decoration:underline}
       .finally(function () { if (btn) { btn.disabled = false; btn.innerHTML = original; } });
   }
 
-  /* ---------- file picker (support form only) ---------- */
-  function renderFileList() {
-    var list = document.getElementById("fileList");
-    if (!list) return;
-    list.innerHTML = selectedFiles.map(function (f, i) {
-      return '<li><i class="fas fa-file"></i><span>' + f.name.replace(/[<>&]/g, "") + "</span>" +
-        '<span class="muted small">' + Math.ceil(f.size / 1024) + " KB</span>" +
-        '<button type="button" data-remove="' + i + '" aria-label="Remove"><i class="fas fa-xmark"></i></button></li>';
-    }).join("");
-  }
-
-  function addFiles(files) {
-    var msgId = "supportMsg";
-    Array.prototype.forEach.call(files, function (f) {
-      var ext = (f.name.split(".").pop() || "").toLowerCase();
-      if (selectedFiles.length >= MAX_FILES) { showMsg(msgId, "err", t("form.file.count")); return; }
-      if (ALLOWED.indexOf(ext) === -1) { showMsg(msgId, "err", t("form.file.type") + " " + f.name); return; }
-      if (f.size > MAX_SIZE) { showMsg(msgId, "err", t("form.file.size") + " " + f.name); return; }
-      selectedFiles.push(f);
-    });
-    renderFileList();
-  }
-
-  /* ============================ PAGE WIRING ============================ */
   function wirePage(section) {
-    var form;
-    if (section === "support") {
-      selectedFiles = [];
-      var dz = document.getElementById("dropzone");
-      var input = document.getElementById("fileInput");
-      if (dz && input) {
-        dz.addEventListener("click", function () { input.click(); });
-        dz.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); input.click(); } });
-        dz.addEventListener("dragover", function (e) { e.preventDefault(); dz.classList.add("drag"); });
-        dz.addEventListener("dragleave", function () { dz.classList.remove("drag"); });
-        dz.addEventListener("drop", function (e) { e.preventDefault(); dz.classList.remove("drag"); addFiles(e.dataTransfer.files); });
-        input.addEventListener("change", function () { addFiles(input.files); input.value = ""; });
-      }
-      var list = document.getElementById("fileList");
-      if (list) list.addEventListener("click", function (e) {
-        var btn = e.target.closest("[data-remove]");
-        if (!btn) return;
-        selectedFiles.splice(parseInt(btn.getAttribute("data-remove"), 10), 1);
-        renderFileList();
+    var map = {
+      "support":      ["supportForm", "submit-support.php", "supportMsg", true],
+      "volunteer":    ["volunteerForm", "submit-volunteer.php", "volunteerMsg", false],
+      "work-with-us": ["partnerForm", "submit-partner.php", "partnerMsg", false]
+    };
+    var cfg = map[section];
+    if (!cfg) return;
+    var form = document.getElementById(cfg[0]);
+    if (form) {
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        submitForm(form, cfg[1], cfg[2], cfg[3]);
       });
-      form = document.getElementById("supportForm");
-      if (form) form.addEventListener("submit", function (e) { e.preventDefault(); submitForm(form, "submit-support.php", "supportMsg", true); });
-    }
-    if (section === "volunteer") {
-      form = document.getElementById("volunteerForm");
-      if (form) form.addEventListener("submit", function (e) { e.preventDefault(); submitForm(form, "submit-volunteer.php", "volunteerMsg", false); });
-    }
-    if (section === "work-with-us") {
-      form = document.getElementById("partnerForm");
-      if (form) form.addEventListener("submit", function (e) { e.preventDefault(); submitForm(form, "submit-partner.php", "partnerMsg", false); });
-    }
-    if (section === "get-in-touch") {
-      form = document.getElementById("contactForm");
-      if (form) form.addEventListener("submit", function (e) { e.preventDefault(); submitForm(form, "submit-contact.php", "contactMsg", false); });
     }
   }
 
@@ -1547,22 +1112,12 @@ footer a:hover{color:#fff;text-decoration:underline}
       var target = a.getAttribute("href").substring(1);
       if (contentTemplates[target]) {
         e.preventDefault();
-        if (a.hasAttribute("data-close-search")) document.getElementById("searchModal").classList.remove("open");
         render(target, true);
       }
       return;
     }
     var langBtn = e.target.closest(".lang-btn");
-    if (langBtn) { setLang(langBtn.getAttribute("data-lang"), true); return; }
-    if (e.target.closest("#closeSearchBtn")) { document.getElementById("searchModal").classList.remove("open"); return; }
-    if (e.target.id === "searchModal") { e.target.classList.remove("open"); }
-  });
-
-  document.getElementById("siteSearchInput").addEventListener("keydown", function (e) {
-    if (e.key === "Enter") { e.preventDefault(); runSearch(this.value); }
-  });
-  document.addEventListener("keydown", function (e) {
-    if (e.key === "Escape") document.getElementById("searchModal").classList.remove("open");
+    if (langBtn) setLang(langBtn.getAttribute("data-lang"), true);
   });
 
   var backToTop = document.getElementById("backToTop");
